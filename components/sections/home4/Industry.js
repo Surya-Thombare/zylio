@@ -1,10 +1,25 @@
 import React, { useState } from "react";
+import shoppingCart from "../../../public/assets/imgs/icons/shopping_cart.png"
+import airplane from "../../../public/assets/imgs/icons/airplane.png"
+import construction from "../../../public/assets/imgs/icons/construction.png"
+import education from "../../../public/assets/imgs/icons/education.png"
+import healthcare from "../../../public/assets/imgs/icons/healthcare.png"
+import insurance from "../../../public/assets/imgs/icons/insurance.png"
+import manufacturing from "../../../public/assets/imgs/icons/manufacturing.png"
+import public_services from "../../../public/assets/imgs/icons/public_services.png"
+ 
 
 const industries = [
-  { name: "Digital Transformation", icon: "💰" },
-  { name: "Application Development", icon: "📊" },
-  { name: "Product Engineering", icon: "📡" },
-  { name: "UI/UX Design ", icon: "🛒" },
+  { name: "Retail", icon: shoppingCart.src },
+  { name: "Online Retail", icon: shoppingCart.src },
+  { name: "Travel and Logistics", icon: airplane.src },
+  { name: "Insurance", icon: insurance.src },
+  { name: "Healthcare", icon: healthcare.src },
+  { name: "Consumer Goods and Distribution", icon: shoppingCart.src },
+  { name: "Education", icon: education.src },
+  { name: "Construction", icon: construction.src },
+  { name: "Manufacturing", icon: manufacturing.src },
+  { name: "Public Services", icon: public_services.src },
 ];
 
 const Industry = () => {
@@ -30,7 +45,7 @@ const Industry = () => {
                 hoveredIndex === index ? "icon-hovered" : ""
               }`}
             >
-              {industry.icon}
+              <img src={industry.icon} />
             </span>
             <span
               className={`industry-name ${
