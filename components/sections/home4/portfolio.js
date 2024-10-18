@@ -10,11 +10,10 @@ export default function portfolio() {
             className="container"
             style={{ paddingLeft: "40px", paddingRight: "40px" }}
           >
-            <h4>Your Digital Transformation Partner</h4>
-            <h4 className="portfolio-heading">
-              Named after the height of Mount
-              <br className="portfolio-heading" /> Everest, we aim to set the
-              pinnacle of digital excellence
+            <h4 style={{fontWeight:"semibold", fontSize:"20px"}}>Our Portfolio</h4>
+            <h4 className="portfolio-heading" style={{fontSize:"32px", fontWeight:"normal"}}>
+            Compliance lifecycle transformed for enterprises
+              <br className="portfolio-heading" />
             </h4>
           </div>
           <div className="box-all-group-animate">
