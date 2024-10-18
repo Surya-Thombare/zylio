@@ -1,9 +1,11 @@
-import { Urbanist } from "next/font/google";
+// import { Urbanist } from "next/font/google";
+import { Montserrat } from 'next/font/google';
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "/public/assets/css/style.css";
-const urban = Urbanist({
+const montserrat  = Montserrat({
   weight: ["200", "300", "400", "500", "600", "700"],
   subsets: ["latin"],
   variable: "--tg-body-font-family",
@@ -16,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={urban.variable}>{children}</body>
+      <body className={montserrat.variable}>{children}</body>
     </html>
   );
 }

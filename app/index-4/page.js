@@ -29,12 +29,12 @@ export default function Home4() {
         <Industry />
         <Section5 />
         <Portfolio />
-        <Section6 />
-        {/* <Section7 /> */}
-        <FAQ />
-        <Section8 />
-        <Section9 />
+        {/* <FAQ /> */}
         <Office />
+        {/* <Section6 /> */}
+        {/* <Section7 /> */}
+        {/* <Section8 /> */}
+        <Section9 />
         <Section10 />
       </Layout>
     </>

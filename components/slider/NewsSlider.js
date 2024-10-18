@@ -41,7 +41,7 @@ export default function NewsSlider() {
                     <SwiperSlide>
                         <div className="card-news">
                             <div className="card-image"><Link href="/blog-post"><img src="/assets/imgs/page/homepage1/img-news.png" alt="Nivia" /></Link></div>
-                            <div className="card-info"><Link className="heading-4" href="/blog-post">Now the pain is
+                            {/* <div className="card-info"><Link className="heading-4" href="/blog-post">Now the pain is
                                 very important, and the teaching is consistent.</Link>
                                 <p className="text-md neutral-700 mt-15 mb-35">Pellentesque at posuere tellus. Ut
                                     sed dui justo. Phasellus is scelerisque turpis arcu, ut pulvinar lectus
@@ -59,13 +59,13 @@ export default function NewsSlider() {
                                     </svg>
                                 </span>Learn More
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="card-news">
                             <div className="card-image"><Link href="/blog-post"><img src="/assets/imgs/page/homepage1/img-news2.png" alt="Nivia" /></Link></div>
-                            <div className="card-info"><Link className="heading-4" href="/blog-post">The behavior of
+                            {/* <div className="card-info"><Link className="heading-4" href="/blog-post">The behavior of
                                 the pain itself is important, consistent with</Link>
                                 <p className="text-md neutral-700 mt-15 mb-35">Pellentesque at posuere tellus. Ut
                                     sed dui justo. Phasellus is scelerisque turpis arcu, ut pulvinar lectus
@@ -83,13 +83,13 @@ export default function NewsSlider() {
                                     </svg>
                                 </span> Learn More
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="card-news">
                             <div className="card-image"><Link href="/blog-post"><img src="/assets/imgs/page/homepage1/img-news3.png" alt="Nivia" /></Link></div>
-                            <div className="card-info"><Link className="heading-4" href="/blog-post">How startups can
+                            {/* <div className="card-info"><Link className="heading-4" href="/blog-post">How startups can
                                 improve their chances of getting financing</Link>
                                 <p className="text-md neutral-700 mt-15 mb-35">Pellentesque at posuere tellus. Ut
                                     sed dui justo. Phasellus is scelerisque turpis arcu, ut pulvinar lectus
@@ -107,13 +107,13 @@ export default function NewsSlider() {
                                     </svg>
                                 </span> Learn More
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="card-news">
                             <div className="card-image"><Link href="/blog-post"><img src="/assets/imgs/page/homepage1/img-news.png" alt="Nivia" /></Link></div>
-                            <div className="card-info"><Link className="heading-4" href="/blog-post">Now the pain is
+                            {/* <div className="card-info"><Link className="heading-4" href="/blog-post">Now the pain is
                                 very important, and the teaching is consistent.</Link>
                                 <p className="text-md neutral-700 mt-15 mb-35">Pellentesque at posuere tellus. Ut
                                     sed dui justo. Phasellus is scelerisque turpis arcu, ut pulvinar lectus
@@ -131,13 +131,13 @@ export default function NewsSlider() {
                                     </svg>
                                 </span>Learn More
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="card-news">
                             <div className="card-image"><Link href="/blog-post"><img src="/assets/imgs/page/homepage1/img-news2.png" alt="Nivia" /></Link></div>
-                            <div className="card-info"><Link className="heading-4" href="/blog-post">The behavior of
+                            {/* <div className="card-info"><Link className="heading-4" href="/blog-post">The behavior of
                                 the pain itself is important, consistent with</Link>
                                 <p className="text-md neutral-700 mt-15 mb-35">Pellentesque at posuere tellus. Ut
                                     sed dui justo. Phasellus is scelerisque turpis arcu, ut pulvinar lectus
@@ -155,13 +155,13 @@ export default function NewsSlider() {
                                     </svg>
                                 </span> Learn More
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="card-news">
                             <div className="card-image"><Link href="/blog-post"><img src="/assets/imgs/page/homepage1/img-news3.png" alt="Nivia" /></Link></div>
-                            <div className="card-info"><Link className="heading-4" href="/blog-post">How startups can
+                            {/* <div className="card-info"><Link className="heading-4" href="/blog-post">How startups can
                                 improve their chances of getting financing</Link>
                                 <p className="text-md neutral-700 mt-15 mb-35">Pellentesque at posuere tellus. Ut
                                     sed dui justo. Phasellus is scelerisque turpis arcu, ut pulvinar lectus
@@ -179,7 +179,7 @@ export default function NewsSlider() {
                                     </svg>
                                 </span> Learn More
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
                 </Swiper>

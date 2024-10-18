@@ -434,7 +434,7 @@ export default function portfolio() {
             className="container"
             style={{ paddingLeft: "40px", paddingRight: "40px" }}
           >
-            <div className="row">
+            {/* <div className="row">
               <div className="col-lg-6">
                 <h3 className="heading-3">
                   Take your online presence to the next level with my expert web
@@ -448,7 +448,7 @@ export default function portfolio() {
                   nibh massa.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

@@ -26,7 +26,7 @@ TABLE CONTENT
  WP STYPE
  Custom amine
 ***/
-@import url(https://fonts.bunny.net/css?family=urbanist:200,300,400,500,600,700);
+/* @import url(https://fonts.bunny.net/css?family=urbanist:200,300,400,500,600,700); */
 /*import vendors*/
 @import url(../css/vendors/normalize.css);
 @import url(../css/vendors/bootstrap.min.css);
@@ -40,6 +40,111 @@ TABLE CONTENT
 @import url(../css/plugins/carouselTicker.css);
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+
+.text-black{
+  color:black
+}
+
+
+/* Office section */
+/* General Styling */
+.section-office-locations {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+}
+
+.office-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.office-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.office-title {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+}
+
+.office-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.office-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.office-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  flex: 1 1 calc(33.33% - 20px); /* 3 columns */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.office-image img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.office-info {
+  text-align: left;
+}
+
+.office-location {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.office-address, .office-hours {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.office-contact-btn {
+  display: inline-block;
+  margin-top: 15px;
+  color: #191919;
+  text-decoration: none;
+}
+
+.office-contact-btn svg {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Responsive styling */
+@media (max-width: 992px) {
+  .office-card {
+    flex: 1 1 calc(50% - 20px); /* 2 columns */
+  }
+}
+
+@media (max-width: 768px) {
+  .office-card {
+    flex: 1 1 100%; /* 1 column on smaller screens */
+  }
+}
+
+
+
+
+
+
+/* Industry section */
 .industry-container {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -3241,8 +3346,8 @@ label {
 
 .card-features-6 {
   border-radius: 16px;
-  background-color: #1e1e1e;
-  border: 1px solid #434445;
+  background-color: #C9C9C9;
+  border: 1px solid #C9C9C9;
   padding: 32px 32px 35px 32px;
   color: #ffffff;
   margin-bottom: 30px;
@@ -6730,12 +6835,12 @@ a.icon-socials:hover {
 }
 
 .box-all-group-animate {
-  padding: 0px 44px;
+  /* padding: 0px 44px; */
 }
 .box-all-group-animate .box-swiper-group-animate {
   background-color: #ffffff;
   border-radius: 32px;
-  padding: 48px;
+  /* padding: 48px; */
   margin-bottom: 95px;
   margin-top: 45px;
 }
@@ -8814,8 +8919,8 @@ a.icon-socials:hover {
 
 .box-our-offices {
   padding: 100px 0px 140px 0px;
-  background-color: #191919;
-  background-image: url(../imgs/page/about/bg-offices.png);
+  background-color: #F5F5F5;
+  /* background-image: url(../imgs/page/about/bg-offices.png); */
   background-repeat: no-repeat;
   background-position: bottom right;
 }
