@@ -53,12 +53,12 @@ export default function Section3() {
         <div className="row">
           {/* Text section */}
           <div className={`col ${isMobile ? "col-12" : "col-lg-5 col-md-6"}`}>
-            <div className="text-section text-black">
-              <span className="subtitle  text-black" style={{fontWeight:"semibold", color:"black", fontSize:"20px"}}>
+            <div className="text-section text-black ">
+              <span className="subtitle  text-black  section3_text_title">
                 Your Digital Transformation Partner
               </span>
-              <h3 className="title" style={{fontSize:"40px", fontWeight:"normal "}}>
-              We Create Software, Websites and Web Apps.
+              <h3 className="title section3_text_subtitle">
+                We Create Software, Websites and Web Apps.
               </h3>
               <p className="description">
                 We are a team of professionals committed to transforming the
