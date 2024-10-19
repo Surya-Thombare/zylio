@@ -22,7 +22,7 @@ export default function Home4() {
     <>
       <Layout headerStyle={1} footerStyle={4} logoWhite>
         <Section1 />
-        <Review />
+        {/* <Review /> */}
         {/* <Section2 /> */}
         <Section3 />
         <Services />

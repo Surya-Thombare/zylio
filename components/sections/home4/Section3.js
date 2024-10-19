@@ -207,6 +207,11 @@ export default function Section3() {
           left: 65%;
           z-index: 0;
         }
+        @media only screen and (min-width: 1200px) and (max-width: 2999px) {
+          .about-image-overlay {
+            width: 350px;
+          }
+        }
 
         @media only screen and (min-width: 769px) and (max-width: 900px) {
           .row {
@@ -301,7 +306,11 @@ export default function Section3() {
             margin-top: 2rem;
           }
           .about-image-area .about-image {
-            width: 250px;
+            width: 350px;
+          }
+
+          .about-image-overlay {
+            width: 350px;
           }
         }
 

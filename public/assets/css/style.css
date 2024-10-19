@@ -297,7 +297,7 @@ TABLE CONTENT
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .first-slider {
     margin: 0px !important;
-    padding: 20px;
+    /* padding: 20px; */
     padding-top: 100px;
     padding-bottom: 10px;
     margin-bottom: 0px;
@@ -306,7 +306,7 @@ TABLE CONTENT
 @media only screen and (max-width: 767px) {
   .first-slider {
     margin: 0px !important;
-    padding: 20px;
+    /* padding: 20px; */
     padding-top: 100px;
     padding-bottom: 10px;
     margin-bottom: 0px;
@@ -315,7 +315,7 @@ TABLE CONTENT
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .first-slider {
     margin: 0px !important;
-    padding: 20px;
+    /* padding: 20px; */
     padding-top: 100px;
     padding-bottom: 10px;
     margin-bottom: 0px;
@@ -324,7 +324,7 @@ TABLE CONTENT
 @media only screen and (max-width: 767px) {
   .first-slider {
     margin: 0px !important;
-    padding: 20px;
+    /* padding: 20px; */
     padding-top: 100px;
     padding-bottom: 10px;
     margin-bottom: 0px;
@@ -333,10 +333,10 @@ TABLE CONTENT
 @media only screen and (max-width: 479px) {
   .first-slider {
     margin: 0px !important;
-    padding-left: 10px !important;
+    /* padding-left: 10px !important; */
 
     width: auto;
-    padding-right: 10px !important;
+    /* padding-right: 10px !important; */
     padding-top: 100px;
     padding-bottom: 10px;
     margin-bottom: 0px;
@@ -10511,7 +10511,7 @@ a.icon-socials:hover {
     background-image: none;
   }
   .box-all-group-animate .box-swiper-group-animate {
-    padding: 20px;
+    /* padding: 20px; */
   }
   .item-grow {
     height: 220px;
@@ -10535,7 +10535,7 @@ a.icon-socials:hover {
     height: 220px;
   }
   .box-all-group-animate {
-    padding: 0px 15px;
+    /* padding: 0px 15px; */
   }
   .carouselTicker7.carouselTicker_vertical .carouselTicker__item,
   .carouselTicker8.carouselTicker_vertical .carouselTicker__item {

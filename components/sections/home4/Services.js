@@ -70,7 +70,7 @@ const Services = () => {
       imageUrl: DataAnalytics.src,
     },
   ];
-  const visibleServices = showAll ? services : services.slice(0, 4);
+  const visibleServices = showAll ? services : services.slice(0, 3);
 
   const toggleView = () => setShowAll(!showAll);
 
@@ -135,7 +135,7 @@ const styles = {
   },
   servicesGrid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+    gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))",
     gap: "2.5rem",
   },
   serviceCard: {
