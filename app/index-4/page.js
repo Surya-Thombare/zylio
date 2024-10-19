@@ -27,8 +27,8 @@ export default function Home4() {
         <Section3 />
         <Services />
         <Industry />
-        <Section5 />
         <Portfolio />
+        <Section5 />
         {/* <FAQ /> */}
         <Office />
         {/* <Section6 /> */}

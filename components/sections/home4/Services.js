@@ -146,7 +146,7 @@ const styles = {
   },
   serviceCardImg: {
     width: "100%",
-    height: "300px",
+    height: "400px",
     objectFit: "cover",
     filter: "brightness(50%)",
   },

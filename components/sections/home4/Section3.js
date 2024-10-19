@@ -307,10 +307,12 @@ export default function Section3() {
           }
           .about-image-area .about-image {
             width: 350px;
+            padding-right: 10px;
           }
 
           .about-image-overlay {
             width: 350px;
+            padding-left: 10px;
           }
         }
 

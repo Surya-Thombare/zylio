@@ -44,10 +44,14 @@ export default function Section5() {
         style={{ paddingLeft: "40px", paddingRight: "40px" }}
       >
         <div className="container">
-          <h2 className="heading-2 neutral-0">Testimonials</h2>
-          <p className="text-md neutral-500 mb-50">
-            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-            consectetur
+          <h2 className="heading-6 neutral-0" style={{ paddingBottom: "15px" }}>
+            Testimonials
+          </h2>
+          <p
+            className="text-xl mb-50"
+            style={{ fontWeight: "normal", color: "white" }}
+          >
+            What Our Clients Say
           </p>
         </div>
         <div className="box-swiper-padding">
