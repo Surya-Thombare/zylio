@@ -1,11 +1,14 @@
+/* Services.css */
+
 .services-container {
   background-color: #1a1a1a;
-  min-height: 100vh;
   padding: 2rem;
+  overflow: hidden; /* Prevent scroll until expand */
+  transition: height 0.3s ease; /* Smooth expand/shrink */
 }
 
 .services-content {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -16,10 +19,17 @@
   margin-bottom: 2rem;
 }
 
+.services-heading-two {
+  color: white;
+  font-size: 1.55rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
 }
 
 .service-card {
@@ -29,14 +39,11 @@
   transition: transform 0.3s ease;
 }
 
-.service-card:hover {
-  transform: translateY(-10px);
-}
-
-.service-card img {
+.service-card-img {
   width: 100%;
-  height: 200px;
+  height: 400px;
   object-fit: cover;
+  filter: brightness(50%);
 }
 
 .service-overlay {
@@ -46,12 +53,8 @@
   right: 0;
   height: 50%;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
-  opacity: 0;
+  opacity: 0; /* Initially hidden */
   transition: opacity 0.3s ease;
-}
-
-.service-card:hover .service-overlay {
-  opacity: 1;
 }
 
 .service-title {
@@ -79,12 +82,25 @@
   cursor: pointer;
 }
 
-.view-button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
+/* Mobile responsive styles */
 @media (max-width: 768px) {
-  .services-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  .services-heading {
+    font-size: 1.75rem; /* Reduce heading size on mobile */
+  }
+
+  .services-heading-two {
+    font-size: 1.25rem;
+  }
+
+  .service-card-img {
+    height: 250px; /* Reduce card image height on mobile */
+  }
+
+  .service-title {
+    font-size: 1.25rem; /* Reduce card title size */
+  }
+
+  .view-button {
+    width: 150px; /* Reduce button width on mobile */
   }
 }

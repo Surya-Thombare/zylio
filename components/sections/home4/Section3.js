@@ -319,6 +319,11 @@ export default function Section3() {
         @media only screen and (max-width: 479px) {
           .about-image-area .about-image {
             width: 250px;
+            padding-right: 10px;
+          }
+
+          .about-image-overlay {
+            width: 300px;
           }
           .row {
             display: flex;

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Services.css"; // Import the CSS file
 import AI from "../../../public/assets/imgs/oldImages/tcs/AI.png";
 import Cloud from "../../../public/assets/imgs/oldImages/tcs/cloud.jpeg";
 import Cogniticve from "../../../public/assets/imgs/oldImages/tcs/cognitiveBusinessOps.png";
@@ -13,21 +14,21 @@ const ServiceCard = ({ title, imageUrl }) => {
 
   return (
     <div
+      className="service-card"
       style={{
-        ...styles.serviceCard,
         transform: isHovered ? "translateY(-10px)" : "translateY(0)",
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img src={imageUrl} alt={title} style={styles.serviceCardImg} />
+      <img src={imageUrl} alt={title} className="service-card-img" />
       <div
+        className="service-overlay"
         style={{
-          ...styles.serviceOverlay,
           opacity: isHovered ? 1 : 0, // Overlay becomes visible on hover
         }}
       ></div>
-      <div style={styles.serviceTitle}>{title}</div>
+      <div className="service-title">{title}</div>
     </div>
   );
 };
@@ -75,18 +76,13 @@ const Services = () => {
   const toggleView = () => setShowAll(!showAll);
 
   return (
-    <div
-      style={{
-        ...styles.servicesContainer,
-        height: showAll ? "auto" : "auto", // Adjust height based on toggle
-      }}
-    >
-      <div style={styles.servicesContent}>
-        <h3 style={styles.servicesHeadingTwo}>SERVICES</h3>
-        <h1 style={styles.servicesHeading}>
+    <div className="services-container">
+      <div className="services-content">
+        <h3 className="services-heading-two">SERVICES</h3>
+        <h1 className="services-heading">
           Transform your business with advanced technologies
         </h1>
-        <div style={styles.servicesGrid}>
+        <div className="services-grid">
           {visibleServices.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}
@@ -95,8 +91,8 @@ const Services = () => {
           onMouseEnter={() => setButtonHovered(true)}
           onMouseLeave={() => setButtonHovered(false)}
           onClick={toggleView}
+          className="view-button"
           style={{
-            ...styles.viewButton,
             backgroundColor: buttonHovered
               ? "rgba(255, 255, 255, 0.1)"
               : "transparent",
@@ -107,82 +103,6 @@ const Services = () => {
       </div>
     </div>
   );
-};
-
-// CSS-in-JS styling (styles as objects)
-const styles = {
-  servicesContainer: {
-    backgroundColor: "#1a1a1a",
-    padding: "2rem",
-    overflow: "hidden", // Prevent scroll until expand
-    transition: "height 0.3s ease", // Smooth expand/shrink
-  },
-  servicesContent: {
-    maxWidth: "1400px",
-    margin: "0 auto",
-  },
-  servicesHeading: {
-    color: "white",
-    fontSize: "2.25rem",
-    fontWeight: "300",
-    marginBottom: "2rem",
-  },
-  servicesHeadingTwo: {
-    color: "white",
-    fontSize: "1.55rem",
-    fontWeight: "300",
-    marginBottom: "2rem",
-  },
-  servicesGrid: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))",
-    gap: "2.5rem",
-  },
-  serviceCard: {
-    position: "relative",
-    overflow: "hidden",
-    borderRadius: "0.5rem",
-    transition: "transform 0.3s ease",
-  },
-  serviceCardImg: {
-    width: "100%",
-    height: "400px",
-    objectFit: "cover",
-    filter: "brightness(50%)",
-  },
-  serviceOverlay: {
-    position: "absolute",
-    bottom: 0,
-    left: 0,
-    right: 0,
-    height: "50%",
-    background: "linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent)",
-    opacity: 0, // Initially hidden
-    transition: "opacity 0.3s ease",
-  },
-  serviceTitle: {
-    position: "absolute",
-    bottom: "1.25rem",
-    left: "1.25rem",
-    color: "white",
-    fontSize: "1.5rem",
-    fontWeight: "600",
-    zIndex: 1,
-  },
-  viewButton: {
-    display: "block",
-    width: "200px",
-    margin: "2.5rem auto 0",
-    padding: "0.625rem 1.25rem",
-    backgroundColor: "transparent",
-    color: "white",
-    border: "2px solid white",
-    borderRadius: "9999px",
-    textAlign: "center",
-    textDecoration: "none",
-    transition: "background-color 0.3s ease",
-    cursor: "pointer",
-  },
 };
 
 export default Services;
