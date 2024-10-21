@@ -26,7 +26,7 @@ const retail  = () => {
       <div className="text-white">
         <h1 className="mb-3 py-5">Retail</h1>
         <h4 className="mb-3">Lead the next frontier of retail</h4>
-        <a data-mdb-ripple-init className="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a>
+        {/* <a data-mdb-ripple-init className="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a> */}
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@ const retail  = () => {
 <div className='flex justify-content-center align-items-center text-center'>
     <h4 style={{padding:"20px"}}>RETAIL</h4>
     <h2 style={{fontWeight:"normal", padding:"25px"}}>Lead with Zylivo Innvoations <sup className='font-weight-light' style={{fontWeight:"lighter", fontSize:"30px"}}>TM</sup></h2>
-    <p className='' style={{fontSize:"20px"}}>We help you fuel growth and innovate continuously by enabling end-to-end business <br/>transformation across digital strategy, customer experience, operations, and commercial <br/> proposition optimization. Our deep industry expertise, unique outcome-driven engagement <br/> model, AI-powered products and platforms, innovation hubs, and partnership ecosystems <br/> accelerate your journey to a data-led, nimble enterprise of the future.</p>
+    <p className='' style={{fontSize:"20px", paddingBottom:"30px"}}>We help you fuel growth and innovate continuously by enabling end-to-end business <br/>transformation across digital strategy, customer experience, operations, and commercial <br/> proposition optimization. Our deep industry expertise, unique outcome-driven engagement <br/> model, AI-powered products and platforms, innovation hubs, and partnership ecosystems <br/> accelerate your journey to a data-led, nimble enterprise of the future.</p>
 </div>
       </Layout>
   )
