@@ -10,7 +10,7 @@ import manufacturing from "/public/assets/imgs/icons/manufacturing.png";
 import public_services from "/public/assets/imgs/icons/public_services.png";
 
 const industries = [
-  { name: "Retail", icon: shoppingCart.src, path: "/retail" },
+  { name: "Retail", icon: shoppingCart.src, path: "/industry/retail" },
   { name: "Online Retail", icon: shoppingCart.src, path: "/retail" },
   { name: "Travel and Logistics", icon: airplane.src, path: "/travel-logistics" },
   { name: "Insurance", icon: insurance.src, path: "/insurance" },
