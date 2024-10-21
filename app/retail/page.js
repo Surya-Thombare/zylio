@@ -34,8 +34,8 @@ const retail  = () => {
 
 <div className='flex justify-content-center align-items-center text-center'>
     <h4 style={{padding:"20px"}}>RETAIL</h4>
-    <h2 style={{fontWeight:"normal", padding:"25px"}}>Lead with Zylivo Innvoations <sup className='font-weight-light' style={{fontWeight:"lighter", fontSize:"30px"}}>TM</sup></h2>
-    <p className='' style={{fontSize:"20px", paddingBottom:"30px"}}>We help you fuel growth and innovate continuously by enabling end-to-end business <br/>transformation across digital strategy, customer experience, operations, and commercial <br/> proposition optimization. Our deep industry expertise, unique outcome-driven engagement <br/> model, AI-powered products and platforms, innovation hubs, and partnership ecosystems <br/> accelerate your journey to a data-led, nimble enterprise of the future.</p>
+    <h2 style={{fontWeight:"normal", padding:"25px"}}>Lead with Zylivo Innvoations <sup className='font-weight-light' style={{fontWeight:"lighter", fontSize:"75%", top:"-.5em"}}>TM</sup></h2>
+    <p className='' style={{fontSize:"1.125rem", paddingBottom:"30px", lineHeight:"180%", letterSpacing:".03125rem"}}>We help you fuel growth and innovate continuously by enabling end-to-end business <br/>transformation across digital strategy, customer experience, operations, and commercial <br/> proposition optimization. Our deep industry expertise, unique outcome-driven engagement <br/> model, AI-powered products and platforms, innovation hubs, and partnership ecosystems <br/> accelerate your journey to a data-led, nimble enterprise of the future.</p>
 </div>
       </Layout>
   )
