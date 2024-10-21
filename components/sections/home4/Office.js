@@ -10,7 +10,7 @@ const Office = () => {
         <div className="row">
           {/* Title remains visible on all devices */}
           <div className="col-12">
-            <h4
+            {/* <h4
               className="text-black"
               style={{
                 fontWeight: "normal",
@@ -19,14 +19,25 @@ const Office = () => {
               }}
             >
               Our offices
-            </h4>
+            </h4> */}
           </div>
 
           {/* Hide this part on mobile view */}
-          <div className="col-lg-4 hide-on-mobile">
-            <div className="row align-items-end">
-              <div className="col-lg-8">
+          <div className="col-lg-4 ">
+            <div className="row align-items-end ">
+              <div className="col-lg-8 ">
                 {/* Any additional content to be hidden on mobile */}
+                <h4
+              className="text-black  mt-25 "
+              style={{
+                fontWeight: "normal",
+                paddingTop: "20px",
+                alignItems: "center",
+                paddingLeft:"20px"
+              }}
+            >
+              Our offices
+            </h4>
               </div>
             </div>
           </div>
