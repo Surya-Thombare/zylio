@@ -1,29 +1,34 @@
 import React, { useState } from "react";
-import shoppingCart from "../../../public/assets/imgs/icons/shopping_cart.png"
-import airplane from "../../../public/assets/imgs/icons/airplane.png"
-import construction from "../../../public/assets/imgs/icons/construction.png"
-import education from "../../../public/assets/imgs/icons/education.png"
-import healthcare from "../../../public/assets/imgs/icons/healthcare.png"
-import insurance from "../../../public/assets/imgs/icons/insurance.png"
-import manufacturing from "../../../public/assets/imgs/icons/manufacturing.png"
-import public_services from "../../../public/assets/imgs/icons/public_services.png"
- 
+import { useRouter } from "next/navigation"; // Import useRouter from Next.js
+import shoppingCart from "/public/assets/imgs/icons/shopping_cart.png";
+import airplane from "/public/assets/imgs/icons/airplane.png";
+import construction from "/public/assets/imgs/icons/construction.png";
+import education from "/public/assets/imgs/icons/education.png";
+import healthcare from "/public/assets/imgs/icons/healthcare.png";
+import insurance from "/public/assets/imgs/icons/insurance.png";
+import manufacturing from "/public/assets/imgs/icons/manufacturing.png";
+import public_services from "/public/assets/imgs/icons/public_services.png";
 
 const industries = [
-  { name: "Retail", icon: shoppingCart.src },
-  { name: "Online Retail", icon: shoppingCart.src },
-  { name: "Travel and Logistics", icon: airplane.src },
-  { name: "Insurance", icon: insurance.src },
-  { name: "Healthcare", icon: healthcare.src },
-  { name: "Consumer Goods and Distribution", icon: shoppingCart.src },
-  { name: "Education", icon: education.src },
-  { name: "Construction", icon: construction.src },
-  { name: "Manufacturing", icon: manufacturing.src },
-  { name: "Public Services", icon: public_services.src },
+  { name: "Retail", icon: shoppingCart.src, path: "/retail" },
+  { name: "Online Retail", icon: shoppingCart.src, path: "/retail" },
+  { name: "Travel and Logistics", icon: airplane.src, path: "/travel-logistics" },
+  { name: "Insurance", icon: insurance.src, path: "/insurance" },
+  { name: "Healthcare", icon: healthcare.src, path: "/healthcare" },
+  { name: "Consumer Goods and Distribution", icon: shoppingCart.src, path: "/retail" },
+  { name: "Education", icon: education.src, path: "/education" },
+  { name: "Construction", icon: construction.src, path: "/construction" },
+  { name: "Manufacturing", icon: manufacturing.src, path: "/manufacturing" },
+  { name: "Public Services", icon: public_services.src, path: "/public-services" },
 ];
 
 const Industry = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  const router = useRouter(); // Initialize useRouter
+
+  const handleNavigation = (path) => {
+    router.push(path); // Navigate to the industry-specific page
+  };
 
   return (
     <div className="industry-container">
@@ -34,23 +39,18 @@ const Industry = () => {
         {industries.map((industry, index) => (
           <div
             key={index}
-            className={`industry-item ${
-              hoveredIndex === index ? "hovered" : ""
-            }`}
+            className={`industry-item ${hoveredIndex === index ? "hovered" : ""}`}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
+            onClick={() => handleNavigation(industry.path)} // On click, navigate to the respective page
           >
             <span
-              className={`industry-icon ${
-                hoveredIndex === index ? "icon-hovered" : ""
-              }`}
+              className={`industry-icon ${hoveredIndex === index ? "icon-hovered" : ""}`}
             >
-              <img src={industry.icon} />
+              <img src={industry.icon} alt={industry.name} />
             </span>
             <span
-              className={`industry-name ${
-                hoveredIndex === index ? "name-hovered" : ""
-              }`}
+              className={`industry-name ${hoveredIndex === index ? "name-hovered" : ""}`}
             >
               {industry.name}
             </span>
