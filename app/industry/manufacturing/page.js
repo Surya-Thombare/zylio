@@ -318,6 +318,38 @@ const manufacturing = () => {
           </button>
         </div>
       </div>
+      {/* Responsive adjustments with media query */}
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .bg-image {
+            height: 300px; /* Adjust height for mobile */
+          }
+          h1 {
+            font-size: 1.75rem !important; /* Scale down for mobile */
+          }
+          h4 {
+            font-size: 1.25rem; /* Scale down for mobile */
+          }
+          .container {
+            padding: 10px; /* Reduce padding for mobile */
+          }
+        }
+
+        @media (max-width: 250px) {
+          .bg-image {
+            height: 300px; /* Adjust height for mobile */
+          }
+          h1 {
+            font-size: 1.75rem !important; /* Scale down for mobile */
+          }
+          h4 {
+            font-size: 1.25rem; /* Scale down for mobile */
+          }
+          .container {
+            padding: 10px; /* Reduce padding for mobile */
+          }
+        }
+      `}</style>
     </Layout>
   );
 };
