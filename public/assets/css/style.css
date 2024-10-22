@@ -3014,11 +3014,11 @@ label {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #c5ff41;
+  background-color: #5057e6;
   font-size: 24px;
   font-weight: bold;
   font-family: var(--tg-body-font-family);
-  color: #191919;
+  color: white;
   text-align: center;
   line-height: 50px;
 }
@@ -8107,7 +8107,8 @@ a.icon-socials:hover {
 }
 
 .box-our-working {
-  background: url(../imgs/page/homepage3/bg-working.png) no-repeat top center;
+  background: url(../imgs/background/Advantage\ Background.png) no-repeat top
+    center;
   background-size: 100% auto;
   padding: 139px 0px;
 }
