@@ -3488,12 +3488,12 @@ label {
 
 .card-features-6 {
   border-radius: 16px;
-  background-color: #c9c9c9;
+  background-color: #f9f5ec;
   border: 1px solid #c9c9c9;
   padding: 32px 32px 35px 32px;
   color: #ffffff;
   margin-bottom: 30px;
-  height: 350px;
+  /* height: 350px; */
 }
 .card-features-6 .card-image {
   margin-bottom: 15px;

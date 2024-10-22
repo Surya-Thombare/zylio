@@ -7,7 +7,7 @@ export default function Footer4() {
         <div className="container">
           <div
             className="row align-items-center justify-content-center"
-            style={{ backgroundColor: "#5A5B5B", padding: "70px" }}
+            style={{ padding: "70px" }}
           >
             {/* Footer links and sections */}
             <div className="col-lg-9 col-md-9 col-sm-12">

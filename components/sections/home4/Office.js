@@ -28,16 +28,16 @@ const Office = () => {
               <div className="col-lg-8 ">
                 {/* Any additional content to be hidden on mobile */}
                 <h4
-              className="text-black  mt-25 "
-              style={{
-                fontWeight: "normal",
-                paddingTop: "20px",
-                alignItems: "center",
-                paddingLeft:"20px"
-              }}
-            >
-              Our offices
-            </h4>
+                  className="text-black  mt-25 "
+                  style={{
+                    fontWeight: "normal",
+                    paddingTop: "20px",
+                    alignItems: "center",
+                    paddingLeft: "20px",
+                  }}
+                >
+                  Our offices
+                </h4>
               </div>
             </div>
           </div>
@@ -49,18 +49,19 @@ const Office = () => {
                 <div className="col-lg-6 col-12">
                   <div className="card-features-6">
                     <div className="card-image">
-                      <img
+                      {/* <img
                         src="/assets/imgs/page/about/london.svg"
                         alt="Nivia"
-                      />
+                      /> */}
                     </div>
                     <div className="card-info">
-                      <h5 className="mb-12 text-black">London</h5>
+                      <h5 className="mb-12 text-black">Navi Mumbai</h5>
                       <p className="mb-12 text-md text-black">
-                        4517 Washington Ave. Manchester, Kentucky 39495
+                        Shop No. 1, Plot No. 1D, Sector 1, Airoli, Navi Mumbai,
+                        Maharashtra 400708
                       </p>
                       <p className="text-md text-black mb-30">
-                        Hours: 8:00 - 17:00, Mon - Sat
+                        info@zylivo.com
                       </p>
                     </div>
                   </div>
@@ -69,18 +70,18 @@ const Office = () => {
                 <div className="col-lg-6 col-12">
                   <div className="card-features-6">
                     <div className="card-image">
-                      <img
+                      {/* <img
                         src="/assets/imgs/page/about/paris.png"
                         alt="Nivia"
-                      />
+                      /> */}
                     </div>
                     <div className="card-info">
-                      <h5 className="mb-12 text-black">Paris</h5>
+                      <h5 className="mb-12 text-black">Mumbai</h5>
                       <p className="mb-12 text-md text-black">
-                        4517 Washington Ave. Manchester, Kentucky 39495
+                        63/7 Pratap Nagar Road, Bhandup (W) , Mumbai - 400078
                       </p>
                       <p className="text-md text-black mb-30">
-                        Hours: 8:00 - 17:00, Mon - Sat
+                        info@zylivo.com
                       </p>
                     </div>
                   </div>
@@ -89,10 +90,10 @@ const Office = () => {
                 <div className="col-lg-6 col-12">
                   <div className="card-features-6">
                     <div className="card-image">
-                      <img
+                      {/* <img
                         src="/assets/imgs/page/about/osaka.png"
                         alt="Nivia"
-                      />
+                      /> */}
                     </div>
                     <div className="card-info">
                       <h5 className="mb-12 text-black">Osaka</h5>
@@ -109,10 +110,10 @@ const Office = () => {
                 <div className="col-lg-6 col-12">
                   <div className="card-features-6">
                     <div className="card-image">
-                      <img
+                      {/* <img
                         src="/assets/imgs/page/about/mumbai.png"
                         alt="Nivia"
-                      />
+                      /> */}
                     </div>
                     <div className="card-info">
                       <h5 className="mb-12 text-black">Mumbai</h5>
