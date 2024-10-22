@@ -6,8 +6,8 @@ export default function Footer4() {
       <footer className="footer footer-style-3 footer-style-4">
         <div className="container">
           <div
-            className="row align-items-center justify-content-center"
-            style={{ padding: "70px" }}
+            className="row align-items-center justify-content-evenly"
+            // style={{ padding: "70px" }}
           >
             {/* Footer links and sections */}
             <div className="col-lg-9 col-md-9 col-sm-12">

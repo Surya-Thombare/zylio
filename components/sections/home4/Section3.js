@@ -50,7 +50,7 @@ export default function Section3() {
           <p>Your one-stop solution for all things digital</p>
         </div>
 
-        <div className="row">
+        <div className="row container">
           {/* Text section */}
           <div className={`col ${isMobile ? "col-12" : "col-lg-5 col-md-6"}`}>
             <div className="text-section text-black ">

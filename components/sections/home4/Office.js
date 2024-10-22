@@ -36,7 +36,7 @@ const Office = () => {
                     paddingLeft: "20px",
                   }}
                 >
-                  Our offices
+                  Our Presence
                 </h4>
               </div>
             </div>

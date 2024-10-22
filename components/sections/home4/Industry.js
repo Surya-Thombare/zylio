@@ -47,7 +47,7 @@ const Industry = () => {
   };
 
   return (
-    <div className="industry-container">
+    <div className="container">
       <h1 className="industry-title">
         Select your industry. Discover our impact.
       </h1>

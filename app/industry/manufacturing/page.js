@@ -94,7 +94,7 @@ const manufacturing = () => {
     // </div>
     <Layout headerStyle={1} footerStyle={4} logoWhite>
       <div
-        className="p-5 text-center bg-image rounded-3"
+        className="p-5 text-center bg-image rounded-3 "
         style={{
           backgroundImage: `url(${Zylivo_innovations_Banner.src})`,
           height: "600px",
@@ -134,7 +134,7 @@ const manufacturing = () => {
         </div> */}
       </div>
 
-      <div className="flex justify-content-center align-items-left text-left">
+      <div className="flex justify-content-center align-items-left text-left container">
         <div
           style={{
             paddingTop: "20px",
