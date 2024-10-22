@@ -12,14 +12,30 @@ import public_services from "/public/assets/imgs/icons/public_services.png";
 const industries = [
   { name: "Retail", icon: shoppingCart.src, path: "/industry/retail" },
   { name: "Online Retail", icon: shoppingCart.src, path: "/retail" },
-  { name: "Travel and Logistics", icon: airplane.src, path: "/travel-logistics" },
+  {
+    name: "Travel and Logistics",
+    icon: airplane.src,
+    path: "/travel-logistics",
+  },
   { name: "Insurance", icon: insurance.src, path: "/insurance" },
   { name: "Healthcare", icon: healthcare.src, path: "/healthcare" },
-  { name: "Consumer Goods and Distribution", icon: shoppingCart.src, path: "/retail" },
+  {
+    name: "Consumer Goods and Distribution",
+    icon: shoppingCart.src,
+    path: "/retail",
+  },
   { name: "Education", icon: education.src, path: "/education" },
   { name: "Construction", icon: construction.src, path: "/construction" },
-  { name: "Manufacturing", icon: manufacturing.src, path: "/manufacturing" },
-  { name: "Public Services", icon: public_services.src, path: "/public-services" },
+  {
+    name: "Manufacturing",
+    icon: manufacturing.src,
+    path: "/industry/manufacturing",
+  },
+  {
+    name: "Public Services",
+    icon: public_services.src,
+    path: "/public-services",
+  },
 ];
 
 const Industry = () => {
@@ -39,18 +55,24 @@ const Industry = () => {
         {industries.map((industry, index) => (
           <div
             key={index}
-            className={`industry-item ${hoveredIndex === index ? "hovered" : ""}`}
+            className={`industry-item ${
+              hoveredIndex === index ? "hovered" : ""
+            }`}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
             onClick={() => handleNavigation(industry.path)} // On click, navigate to the respective page
           >
             <span
-              className={`industry-icon ${hoveredIndex === index ? "icon-hovered" : ""}`}
+              className={`industry-icon ${
+                hoveredIndex === index ? "icon-hovered" : ""
+              }`}
             >
               <img src={industry.icon} alt={industry.name} />
             </span>
             <span
-              className={`industry-name ${hoveredIndex === index ? "name-hovered" : ""}`}
+              className={`industry-name ${
+                hoveredIndex === index ? "name-hovered" : ""
+              }`}
             >
               {industry.name}
             </span>
