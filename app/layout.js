@@ -1,5 +1,6 @@
 // import { Urbanist } from "next/font/google";
 import { Montserrat } from 'next/font/google';
+import { Monda } from 'next/font/google';
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -11,6 +12,14 @@ const montserrat  = Montserrat({
   variable: "--tg-body-font-family",
   display: "swap",
 });
+
+const monda = Monda({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--tg-monda-font-family",
+  display: "swap",
+});
+
 export const metadata = {
   title: "Zylivo",
 };

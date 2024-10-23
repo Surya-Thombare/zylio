@@ -252,7 +252,7 @@ export default function Section1() {
           className="mySwiper"
           pagination={{ clickable: true }} // Update to use object syntax for options
           autoplay={{
-            delay: 2500,
+            delay: 6500,
             disableOnInteraction: false,
           }}
           modules={[Autoplay]}
@@ -288,19 +288,19 @@ export default function Section1() {
                       style={{ marginTop: "0px" }}
                     >
                       <div className="intro-content mt-xl-3 mt-lg-3 mt-md-3 mt-sm-3 mt-xs-3">
-                        <h2 className="sections_heading">
+                        <h2 className="sections_heading monda-font" >
                           Building future ready businesses
                         </h2>
-                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none">
+                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none py-3  monda-font">
                           <p>
                             Empowering organizations to thrive in tomorrow's
                             landscape through strategic innovation and
                             adaptability.
                           </p>
                         </div>
-                        <span className="learn_more_link d-lg-block d-md-block d-none">
+                        <div className="learn_more_link d-lg-block d-md-block d-none learn_more_background" >
                           Learn More
-                        </span>
+                        </div>
                       </div>
                     </Link>
                   </div>
@@ -333,17 +333,17 @@ export default function Section1() {
                       style={{ marginTop: "0px" }}
                     >
                       <div className="intro-content mt-xl-3 mt-lg-3 mt-md-3 mt-sm-3 mt-xs-3">
-                        <h2 className="sections_heading">
+                        <h2 className="sections_heading monda-font">
                           Building future ready businesses
                         </h2>
-                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none">
+                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none  py-3 monda-font">
                           <p>
                             Empowering organizations to thrive in tomorrow's
                             landscape through strategic innovation and
                             adaptability.
                           </p>
                         </div>
-                        <span className="learn_more_link d-lg-block d-md-block d-none">
+                        <span className="learn_more_link d-lg-block d-md-block d-none learn_more_background">
                           Learn More
                         </span>
                       </div>
@@ -378,17 +378,17 @@ export default function Section1() {
                       style={{ marginTop: "0px" }}
                     >
                       <div className="intro-content mt-xl-3 mt-lg-3 mt-md-3 mt-sm-3 mt-xs-3">
-                        <h2 className="sections_heading">
+                        <h2 className="sections_heading monda-font">
                           Building future ready businesses
                         </h2>
-                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none">
+                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none py-3 monda-font">
                           <p>
                             Empowering organizations to thrive in tomorrow's
                             landscape through strategic innovation and
                             adaptability.
                           </p>
                         </div>
-                        <span className="learn_more_link d-lg-block d-md-block d-none">
+                        <span className="learn_more_link d-lg-block d-md-block d-none learn_more_background">
                           Learn More
                         </span>
                       </div>
@@ -427,13 +427,13 @@ export default function Section1() {
                         <h2 className="sections_heading">
                           Compliance lifecycle transformed for enterprises
                         </h2>
-                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none">
+                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none py-3">
                           <p>
                             Revolutionize your approach to compliance. Discover
                             a lifecycle that works for your business.
                           </p>
                         </div>
-                        <span className="learn_more_link d-lg-block d-md-block d-none">
+                        <span className="learn_more_link d-lg-block d-md-block d-none learn_more_background">
                           Learn More
                         </span>
                       </div>

@@ -8,10 +8,10 @@ export default function portfolio() {
         <div className="box-grow-inner">
           <div
             className="container"
-            style={{ paddingLeft: "40px", paddingRight: "40px" }}
+            style={{paddingRight: "40px" }}
           >
-            <h4 style={{fontWeight:"semibold", fontSize:"20px"}}>Our Portfolio</h4>
-            <h4 className="portfolio-heading" style={{fontSize:"32px", fontWeight:"normal"}}>
+            <h4 className="container" style={{fontWeight:"semibold", fontSize:"20px"}}>Our Portfolio</h4>
+            <h4 className="portfolio-heading container" style={{fontSize:"32px", fontWeight:"normal"}}>
             Compliance lifecycle transformed for enterprises
               <br className="portfolio-heading" />
             </h4>
