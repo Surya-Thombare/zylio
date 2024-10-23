@@ -61,6 +61,7 @@ const Office = () => {
                         Maharashtra 400708
                       </p>
                       <p className="text-md text-black mb-30">
+                      <hr/>
                         info@zylivo.com
                       </p>
                     </div>
@@ -81,6 +82,7 @@ const Office = () => {
                         63/7 Pratap Nagar Road, Bhandup (W) , Mumbai - 400078
                       </p>
                       <p className="text-md text-black mb-30">
+                      <hr/>
                         info@zylivo.com
                       </p>
                     </div>
@@ -101,7 +103,8 @@ const Office = () => {
                         4517 Washington Ave. Manchester, Kentucky 39495
                       </p>
                       <p className="text-md text-black mb-30">
-                        Hours: 8:00 - 17:00, Mon - Sat
+                      <hr/>
+                        info@zylivo.com
                       </p>
                     </div>
                   </div>
@@ -121,7 +124,8 @@ const Office = () => {
                         4517 Washington Ave. Manchester, Kentucky 39495
                       </p>
                       <p className="text-md text-black mb-30">
-                        Hours: 8:00 - 17:00, Mon - Sat
+                      <hr/>
+                      info@zylivo.com
                       </p>
                     </div>
                   </div>

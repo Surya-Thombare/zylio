@@ -45,15 +45,15 @@ export default function Section3() {
   return (
     <div className="section-wrapper">
       <div className="container">
-        <div className="section-title">
+        {/* <div className="section-title">
           <h2>Who are we</h2>
           <p>Your one-stop solution for all things digital</p>
-        </div>
-
+        </div> */}
+    <div className="container">
         <div className="row container">
           {/* Text section */}
           <div className={`col ${isMobile ? "col-12" : "col-lg-5 col-md-6"}`}>
-            <div className="text-section text-black ">
+            <div className="text-section text-black container ">
               <span className="subtitle  text-black  section3_text_title">
                 Your Digital Transformation Partner
               </span>
@@ -101,6 +101,7 @@ export default function Section3() {
                   layout="intrinsic"
                 />
               </div>
+            </div>
             </div>
           </div>
         </div>

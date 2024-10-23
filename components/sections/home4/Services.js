@@ -76,13 +76,13 @@ const Services = () => {
   const toggleView = () => setShowAll(!showAll);
 
   return (
-    <div className="services-container">
-      <div className="services-content">
-        <h3 className="services-heading-two">SERVICES</h3>
-        <h1 className="services-heading">
+    <div className="services-container ">
+      <div className="services-content container">
+        <h3 className="services-heading-two container">SERVICES</h3>
+        <h1 className="services-heading container">
           Transform your business with advanced technologies
         </h1>
-        <div className="services-grid">
+        <div className="services-grid container">
           {visibleServices.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}
