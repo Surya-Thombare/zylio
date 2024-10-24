@@ -34,6 +34,7 @@ const Office = () => {
                     paddingTop: "20px",
                     alignItems: "center",
                     paddingLeft: "20px",
+                    fontSize: "32px",
                   }}
                 >
                   Our Presence
@@ -60,9 +61,8 @@ const Office = () => {
                         Shop No. 1, Plot No. 1D, Sector 1, Airoli, Navi Mumbai,
                         Maharashtra 400708
                       </p>
-                      <hr style={{border:"10px", color:"black"}}/>
+                      <hr style={{ border: "10px", color: "black" }} />
                       <p className="text-md text-black mb-30">
-                      
                         info@zylivo.com
                       </p>
                     </div>
@@ -82,9 +82,8 @@ const Office = () => {
                       <p className="mb-12 text-md text-black">
                         63/7 Pratap Nagar Road, Bhandup (W) , Mumbai - 400078
                       </p>
-                      <hr style={{border:"10px", color:"black"}}/>
+                      <hr style={{ border: "10px", color: "black" }} />
                       <p className="text-md text-black mb-30">
-                      
                         info@zylivo.com
                       </p>
                     </div>
@@ -104,9 +103,8 @@ const Office = () => {
                       <p className="mb-12 text-md text-black">
                         4517 Washington Ave. Manchester, Kentucky 39495
                       </p>
-                      <hr style={{border:"10px", color:"black"}}/>
+                      <hr style={{ border: "10px", color: "black" }} />
                       <p className="text-md text-black mb-30">
-                      
                         info@zylivo.com
                       </p>
                     </div>
@@ -126,9 +124,9 @@ const Office = () => {
                       <p className="mb-12 text-md text-black">
                         4517 Washington Ave. Manchester, Kentucky 39495
                       </p>
-                      <hr style={{border:"10px", color:"black"}}/>
+                      <hr style={{ border: "10px", color: "black" }} />
                       <p className="text-md text-black mb-30">
-                      info@zylivo.com
+                        info@zylivo.com
                       </p>
                     </div>
                   </div>

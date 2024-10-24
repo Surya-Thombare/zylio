@@ -1,18 +1,20 @@
-
-import NewsSlider from '@/components/slider/NewsSlider'
+import NewsSlider from "@/components/slider/NewsSlider";
 
 export default function Section9() {
-    return (
-        <>
-
-            <section className="section-box box-latest-news box-latest-news-2">
-                <div className="container">
-                    <div className="row align-items-end">
-                        <div className="col-lg-8 mb-30">
-                            <h2 className="heading-2 mb-10 text-white">Spotlight on Zylivo Innovations</h2>
-                          
-                        </div>
-                        {/* <div className="col-lg-4 mb-30">
+  return (
+    <>
+      <section className="section-box box-latest-news box-latest-news-2">
+        <div className="container">
+          <div className="row align-items-end">
+            <div className="col-lg-8 mb-30">
+              <h2
+                className=" mb-10 text-white"
+                style={{ fontSize: "32px", fontWeight: "400" }}
+              >
+                Spotlight on Zylivo Innovations
+              </h2>
+            </div>
+            {/* <div className="col-lg-4 mb-30">
                             <div className="box-button-slider box-button-slider-team justify-content-end">
                                 <div className="swiper-button-prev swiper-button-prev-testimonials swiper-button-prev-3">
                                     <svg width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,12 +30,12 @@ export default function Section9() {
                                 </div>
                             </div>
                         </div> */}
-                    </div>
-                    <div className="box-swiper mt-30">
-                        <NewsSlider />
-                    </div>
-                </div>
-            </section>
-        </>
-    )
+          </div>
+          <div className="box-swiper mt-30">
+            <NewsSlider />
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }

@@ -6,11 +6,11 @@ export default function Footer4() {
       <footer className="footer footer-style-3 footer-style-4">
         <div className="container">
           <div
-            className="row align-items-center justify-content-evenly"
+            className="row align-items-center justify-content-center "
             // style={{ padding: "70px" }}
           >
             {/* Footer links and sections */}
-            <div className="col-lg-9 col-md-9 col-sm-12">
+            <div className="col-lg-11 col-md-9 col-sm-12">
               <div className="row">
                 {/* About section */}
 

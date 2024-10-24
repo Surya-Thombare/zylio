@@ -288,17 +288,20 @@ export default function Section1() {
                       style={{ marginTop: "0px" }}
                     >
                       <div className="intro-content mt-xl-3 mt-lg-3 mt-md-3 mt-sm-3 mt-xs-3">
-                        <h2 className="sections_heading monda-font" >
+                        <h2
+                          className="sections_heading monda-font"
+                          style={{ fontFamily: "var(--font-monda)" }}
+                        >
                           Building future ready businesses
                         </h2>
-                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none py-3  monda-font">
+                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none py-3 ">
                           <p>
                             Empowering organizations to thrive in tomorrow's
                             landscape through strategic innovation and
                             adaptability.
                           </p>
                         </div>
-                        <div className="learn_more_link d-lg-block d-md-block d-none learn_more_background" >
+                        <div className="learn_more_link d-lg-block d-md-block d-none learn_more_background">
                           Learn More
                         </div>
                       </div>
@@ -336,7 +339,7 @@ export default function Section1() {
                         <h2 className="sections_heading monda-font">
                           Building future ready businesses
                         </h2>
-                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none  py-3 monda-font">
+                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none  py-3">
                           <p>
                             Empowering organizations to thrive in tomorrow's
                             landscape through strategic innovation and
@@ -381,7 +384,7 @@ export default function Section1() {
                         <h2 className="sections_heading monda-font">
                           Building future ready businesses
                         </h2>
-                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none py-3 monda-font">
+                        <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none py-3 ">
                           <p>
                             Empowering organizations to thrive in tomorrow's
                             landscape through strategic innovation and
@@ -424,7 +427,7 @@ export default function Section1() {
                       style={{ marginTop: "0px" }}
                     >
                       <div className="intro-content mt-xl-3 mt-lg-3 mt-md-3 mt-sm-3 mt-xs-3">
-                        <h2 className="sections_heading">
+                        <h2 className="sections_heading monda-font">
                           Compliance lifecycle transformed for enterprises
                         </h2>
                         <div className="sections_heading_desc mb-1 d-lg-block d-md-block d-none py-3">

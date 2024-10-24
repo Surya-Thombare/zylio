@@ -49,59 +49,62 @@ export default function Section3() {
           <h2>Who are we</h2>
           <p>Your one-stop solution for all things digital</p>
         </div> */}
-    <div className="container">
-        <div className="row container">
-          {/* Text section */}
-          <div className={`col ${isMobile ? "col-12" : "col-lg-5 col-md-6"}`}>
-            <div className="text-section text-black container ">
-              <span className="subtitle  text-black  section3_text_title">
-                Your Digital Transformation Partner
-              </span>
-              <h3 className="title section3_text_subtitle">
-                We Create Software, Websites and Web Apps.
-              </h3>
-              <p className="description">
-                We are a team of professionals committed to transforming the
-                digital landscape for businesses and individuals alike. We
-                believe in the power of innovation and technology, and their
-                potential to make life easier, more meaningful, and efficient.
-              </p>
-              <Link href="/about-us">
-                <span className="btn-primary">Get to know us</span>
-              </Link>
+        <div className="">
+          <div className="row container">
+            {/* Text section */}
+            <div className={`col ${isMobile ? "col-12" : "col-lg-5 col-md-6"}`}>
+              <div className="text-section text-black container ">
+                <span
+                  className="subtitle  text-black  section3_text_title monda-font"
+                  // style={{ fontFamily: "var(--font-monda)" }}
+                >
+                  Your Digital Transformation Partner
+                </span>
+                <h3 className="title section3_text_subtitle">
+                  We Create Software, Websites and Web Apps.
+                </h3>
+                <p className="description">
+                  We are a team of professionals committed to transforming the
+                  digital landscape for businesses and individuals alike. We
+                  believe in the power of innovation and technology, and their
+                  potential to make life easier, more meaningful, and efficient.
+                </p>
+                <Link href="/about-us">
+                  <span className="btn-primary">Get to know us</span>
+                </Link>
+              </div>
             </div>
-          </div>
 
-          {/* Image section */}
-          <div className={`col ${isMobile ? "col-12" : "col-lg-7 col-md-6"}`}>
-            <div className="about-image-area">
-              <div className="about-image" ref={tiltRef}>
-                {/* Main image (Team discussion) */}
-                <Image
-                  src={home_image_1}
-                  alt="Team meeting image"
-                  layout="responsive"
-                  objectFit="cover"
-                />
+            {/* Image section */}
+            <div className={`col ${isMobile ? "col-12" : "col-lg-7 col-md-6"}`}>
+              <div className="about-image-area">
+                <div className="about-image" ref={tiltRef}>
+                  {/* Main image (Team discussion) */}
+                  <Image
+                    src={home_image_1}
+                    alt="Team meeting image"
+                    layout="responsive"
+                    objectFit="cover"
+                  />
+                </div>
+                {/* Secondary image (Laptop with code) */}
+                <div className="about-image-overlay">
+                  <Image
+                    src={home_image_2}
+                    alt="Laptop with code"
+                    layout="responsive"
+                    objectFit="cover"
+                  />
+                </div>
+                {/* Decorative overlay */}
+                <div className="shape shape-1">
+                  <Image
+                    src={about_image}
+                    alt="Decorative shape"
+                    layout="intrinsic"
+                  />
+                </div>
               </div>
-              {/* Secondary image (Laptop with code) */}
-              <div className="about-image-overlay">
-                <Image
-                  src={home_image_2}
-                  alt="Laptop with code"
-                  layout="responsive"
-                  objectFit="cover"
-                />
-              </div>
-              {/* Decorative overlay */}
-              <div className="shape shape-1">
-                <Image
-                  src={about_image}
-                  alt="Decorative shape"
-                  layout="intrinsic"
-                />
-              </div>
-            </div>
             </div>
           </div>
         </div>

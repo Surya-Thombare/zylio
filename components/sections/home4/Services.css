@@ -14,16 +14,16 @@
 
 .services-heading {
   color: white;
-  font-size: 2.25rem;
+  font-size: 32px;
   font-weight: 300;
   margin-bottom: 2rem;
 }
 
 .services-heading-two {
   color: white;
-  font-size: 1.55rem;
-  font-weight: 300;
-  margin-bottom: 2rem;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 19px !important;
 }
 
 .services-grid {
@@ -86,6 +86,10 @@
 @media (max-width: 768px) {
   .services-heading {
     font-size: 1.75rem; /* Reduce heading size on mobile */
+  }
+
+  .service-title {
+    font-size: 0.7rem !important;
   }
 
   .services-heading-two {

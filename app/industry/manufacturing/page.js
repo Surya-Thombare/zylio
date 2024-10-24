@@ -11,6 +11,8 @@ import Enterprise from "../../../public/assets/imgs/oldImages/tcs/enterpriseSolu
 import IotDigital from "../../../public/assets/imgs/oldImages/tcs/iotDigital.jpeg";
 import Layout from "@/components/layout/Layout";
 import Zylivo_innovations_Banner from "../../../public/assets/imgs/background/Zylivo_innovations_Banner.png";
+// import SolutionsGrid from "@/components/sections/home4/SolutionCard";
+import SolutionsLayout from "@/components/sections/home4/SolutionCard";
 
 const ServiceCard = ({ title, imageUrl }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -181,7 +183,7 @@ const manufacturing = () => {
           industry.
         </p>
       </div>
-
+      <SolutionsLayout />
       <section className="section-box box-our-working">
         <div className="container">
           <div className="text-left">

@@ -8,6 +8,12 @@ import Cybersecurity from "../../../public/assets/imgs/oldImages/tcs/cybersecuri
 import DataAnalytics from "../../../public/assets/imgs/oldImages/tcs/dataAnalytics.png";
 import Enterprise from "../../../public/assets/imgs/oldImages/tcs/enterpriseSolutions.jpeg";
 import IotDigital from "../../../public/assets/imgs/oldImages/tcs/iotDigital.jpeg";
+import AppDevelopment from "../../../public/assets/imgs/oldImages/tcs/App_Devlopment_zylivo_innovations.jpg";
+import BrandIdentity from "../../../public/assets/imgs/oldImages/tcs/Brand_Identity_zylivo_innovations.jpg";
+import Ecommerce from "../../../public/assets/imgs/oldImages/tcs/Ecomerce_Website_Devlopment_zylivo_innovations.jpg";
+import SoftwareDevelopment from "../../../public/assets/imgs/oldImages/tcs/Software_Devlopment_zylivo_innovations.jpg";
+import UIUX from "../../../public/assets/imgs/oldImages/tcs/UX_UI_Desiner_zylivo_innovations.jpg";
+import WebsiteDevelopment from "../../../public/assets/imgs/oldImages/tcs/Website_Devlopment_zylivo_innovations.jpg";
 
 const ServiceCard = ({ title, imageUrl }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -38,6 +44,30 @@ const Services = () => {
   const [buttonHovered, setButtonHovered] = useState(false);
 
   const services = [
+    {
+      title: "Website Development",
+      imageUrl: WebsiteDevelopment.src,
+    },
+    {
+      title: "Ecommerce Website Development",
+      imageUrl: Ecommerce.src,
+    },
+    {
+      title: "Software Development",
+      imageUrl: SoftwareDevelopment.src,
+    },
+    {
+      title: "App Development",
+      imageUrl: AppDevelopment.src,
+    },
+    {
+      title: "Brand Identity",
+      imageUrl: BrandIdentity.src,
+    },
+    {
+      title: "UI / UX",
+      imageUrl: UIUX.src,
+    },
     {
       title: "Artificial Intelligence",
       imageUrl: AI.src,
@@ -77,8 +107,8 @@ const Services = () => {
 
   return (
     <div className="services-container ">
-      <div className="services-content container">
-        <h3 className="services-heading-two container">SERVICES</h3>
+      <div className=" container">
+        <h3 className="services-heading-two container monda-font">SERVICES</h3>
         <h1 className="services-heading container">
           Transform your business with advanced technologies
         </h1>

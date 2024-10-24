@@ -44,12 +44,24 @@ export default function Section5() {
         style={{ paddingLeft: "40px", paddingRight: "40px" }}
       >
         <div className="container">
-          <h2 className="heading-6 neutral-0" style={{ paddingBottom: "15px" }}>
+          <h2
+            className=" neutral-0 monda-font"
+            style={{
+              paddingBottom: "29px",
+              fontWeight: "600",
+              fontSize: "20px",
+            }}
+          >
             Testimonials
           </h2>
           <p
-            className="text-xl mb-50"
-            style={{ fontWeight: "normal", color: "white" }}
+            className=""
+            style={{
+              fontSize: "32px",
+              fontWeight: "normal",
+              color: "white",
+              marginBottom: "68px",
+            }}
           >
             What Our Clients Say
           </p>

@@ -6,13 +6,18 @@ export default function portfolio() {
     <>
       <section className="section-box wow animate__animated animate__fadeIn box-grow">
         <div className="box-grow-inner">
-          <div
-            className="container"
-            style={{paddingRight: "40px" }}
-          >
-            <h4 className="container" style={{fontWeight:"semibold", fontSize:"20px"}}>Our Portfolio</h4>
-            <h4 className="portfolio-heading container" style={{fontSize:"32px", fontWeight:"normal"}}>
-            Compliance lifecycle transformed for enterprises
+          <div className="container" style={{ paddingRight: "40px" }}>
+            <h4
+              className="container monda-font"
+              style={{ fontWeight: "600", fontSize: "20px" }}
+            >
+              Our Portfolio
+            </h4>
+            <h4
+              className="portfolio-heading container"
+              style={{ fontSize: "32px", fontWeight: "normal" }}
+            >
+              We have Completed over 50+ Websites and Web Applications!
               <br className="portfolio-heading" />
             </h4>
           </div>
