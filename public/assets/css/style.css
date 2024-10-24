@@ -111,6 +111,7 @@ TABLE CONTENT
   height: 400px;
   object-fit: cover;
   filter: brightness(50%);
+  border-radius: 8px;
 }
 
 .service-overlay {

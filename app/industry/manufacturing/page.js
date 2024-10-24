@@ -76,7 +76,7 @@ const manufacturing = () => {
       imageUrl: DataAnalytics.src,
     },
   ];
-  const visibleServices = showAll ? services : services.slice(0, 3);
+  const visibleServices = showAll ? services : services.slice(0, 4);
 
   const toggleView = () => setShowAll(!showAll);
 
@@ -107,16 +107,16 @@ const manufacturing = () => {
           alignItems: "center",
         }}
       >
-        <div className="container">
+        <div className="container" style={{ paddingLeft: "0px" }}>
           <div
             style={{
               color: "white",
               maxWidth: "600px",
               textAlign: "left",
-              padding: "20px",
+              // padding: "20px",
             }}
           >
-            <div style={{ fontSize: "20px" }}>Industry/Manufacturing</div>
+            <div style={{ fontSize: "20px" }}>Industry / Manufacturing</div>
             <h1 style={{ fontSize: "48px", fontWeight: "normal" }}>
               Manufacturing
             </h1>
@@ -139,10 +139,10 @@ const manufacturing = () => {
       <div className="flex justify-content-center align-items-left text-left container">
         <div
           style={{
-            paddingTop: "20px",
+            paddingTop: "18px",
             fontWeight: "500",
             paddingLeft: "20px",
-            fontSize: "20px",
+            fontSize: "18px",
           }}
         >
           Manufacturing
@@ -150,7 +150,7 @@ const manufacturing = () => {
         <h2
           style={{
             fontWeight: "500",
-            paddingTop: "20px",
+            paddingTop: "18px",
             paddingLeft: "20px",
             fontSize: "32px",
           }}
@@ -164,7 +164,7 @@ const manufacturing = () => {
             paddingBottom: "30px",
             lineHeight: "180%",
             letterSpacing: ".03125rem",
-            padding: "20px",
+            padding: "18px",
           }}
         >
           The manufacturing landscape is undergoing a seismic shift. The future
@@ -186,12 +186,15 @@ const manufacturing = () => {
       <SolutionsLayout />
       <section className="section-box box-our-working">
         <div className="container">
-          <div className="text-left">
-            <h2 className="text-48-semibold neutral-1000 mb-35 ">
+          <div className="text-left container">
+            <h2
+              className=""
+              style={{ fontSize: "32px", fontWeight: "600", color: "#191919" }}
+            >
               The Zylivo Advantage
             </h2>
           </div>
-          <div className="row mt-65 justify-content-evenly">
+          <div className="row mt-65 justify-content-evenly container">
             <div className="col-lg-4 col-md-6 .col-sm-6">
               <div className="card-working hover-up">
                 <div className="card-number">
@@ -296,28 +299,15 @@ const manufacturing = () => {
 
       <div className="services-container">
         <div className="services-content">
-          <h3 className="services-heading-two">SERVICES</h3>
-          <h1 className="services-heading">
-            Transform your business with advanced technologies
+          {/* <h3 className="services-heading-two">SERVICES</h3> */}
+          <h1 className="services-heading" style={{ fontSize: "32px" }}>
+            Our Services for Manufacturing Industry
           </h1>
           <div className="services-grid">
             {visibleServices.map((service, index) => (
               <ServiceCard key={index} {...service} />
             ))}
           </div>
-          <button
-            onMouseEnter={() => setButtonHovered(true)}
-            onMouseLeave={() => setButtonHovered(false)}
-            onClick={toggleView}
-            className="view-button"
-            style={{
-              backgroundColor: buttonHovered
-                ? "rgba(255, 255, 255, 0.1)"
-                : "transparent",
-            }}
-          >
-            {showAll ? "View less ↑" : "View all topics ↓"}
-          </button>
         </div>
       </div>
       {/* Responsive adjustments with media query */}
