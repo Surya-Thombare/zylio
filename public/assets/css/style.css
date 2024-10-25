@@ -73,15 +73,21 @@ TABLE CONTENT
 }
 
 .card-header-custom {
-  background-color: white !important;
+  background-color: #1a1a1a !important;
   display: flex;
   align-items: center;
+  color: white;
   justify-content: space-between;
+}
+
+.card-body {
+  color: white !important;
+  background-color: #1a1a1a !important;
 }
 
 .card-custom {
   border: none !important;
-  border-top: 2px solid rgba(92, 91, 91, 0.825) !important;
+  border-top: 2px solid rgba(251, 251, 251, 0.825) !important;
 }
 
 /* Services.css */

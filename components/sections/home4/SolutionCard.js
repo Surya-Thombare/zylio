@@ -28,7 +28,10 @@ const SolutionsLayout = () => {
                 className="card-header card-header-custom"
                 onClick={() => toggleSection("productionPlanning")}
               >
-                <button className="btn btn-link w-100 text-left">
+                <button
+                  className="btn btn-link w-100 text-left"
+                  style={{ color: "white" }}
+                >
                   Production Planning and Control
                 </button>
                 <i
@@ -61,7 +64,10 @@ const SolutionsLayout = () => {
                 className="card-header card-header-custom"
                 onClick={() => toggleSection("maintenanceManagement")}
               >
-                <button className="btn btn-link w-100 text-left">
+                <button
+                  className="btn btn-link w-100 text-left"
+                  style={{ color: "white" }}
+                >
                   Maintenance Management
                 </button>
                 <i
@@ -87,7 +93,10 @@ const SolutionsLayout = () => {
                 className="card-header card-header-custom"
                 onClick={() => toggleSection("inventoryManagement")}
               >
-                <button className="btn btn-link w-100 text-left">
+                <button
+                  className="btn btn-link w-100 text-left"
+                  style={{ color: "white" }}
+                >
                   Inventory Management
                 </button>
                 <i
@@ -114,7 +123,10 @@ const SolutionsLayout = () => {
                 className="card-header card-header-custom"
                 onClick={() => toggleSection("qualityManagement")}
               >
-                <button className="btn btn-link w-100 text-left">
+                <button
+                  className="btn btn-link w-100 text-left"
+                  style={{ color: "white" }}
+                >
                   Quality Management
                 </button>
                 <i
@@ -138,7 +150,10 @@ const SolutionsLayout = () => {
                 className="card-header card-header-custom"
                 onClick={() => toggleSection("engineeringProductLifecycle")}
               >
-                <button className="btn btn-link w-100 text-left">
+                <button
+                  className="btn btn-link w-100 text-left"
+                  style={{ color: "white" }}
+                >
                   Engineering and Product Lifecycle
                 </button>
                 <i
@@ -163,7 +178,10 @@ const SolutionsLayout = () => {
                 className="card-header card-header-custom"
                 onClick={() => toggleSection("supplyChainManagement")}
               >
-                <button className="btn btn-link w-100 text-left">
+                <button
+                  className="btn btn-link w-100 text-left"
+                  style={{ color: "white" }}
+                >
                   Supply Chain Management
                 </button>
                 <i
