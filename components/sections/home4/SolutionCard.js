@@ -30,7 +30,7 @@ const SolutionsLayout = () => {
               >
                 <button
                   className="btn btn-link w-100 text-left"
-                  style={{ color: "white" }}
+                  style={{ color: "white", fontSize: "18px" }}
                 >
                   Production Planning and Control
                 </button>
@@ -45,12 +45,12 @@ const SolutionsLayout = () => {
               {openSections["productionPlanning"] && (
                 <div className="card-body">
                   <ul>
-                    <li>Production scheduling</li>
-                    <li>Shop floor control</li>
-                    <li>Work order management</li>
-                    <li>Bill of materials (BOM) management</li>
-                    <li>Material requirements planning (MRP)</li>
-                    <li>Capacity planning</li>
+                    <li>1. Production scheduling</li>
+                    <li>2. Shop floor control</li>
+                    <li>3. Work order management</li>
+                    <li>4. Bill of materials (BOM) management</li>
+                    <li>5. Material requirements planning (MRP)</li>
+                    <li>6. Capacity planning</li>
                   </ul>
                 </div>
               )}
@@ -66,7 +66,7 @@ const SolutionsLayout = () => {
               >
                 <button
                   className="btn btn-link w-100 text-left"
-                  style={{ color: "white" }}
+                  style={{ color: "white", fontSize: "18px" }}
                 >
                   Maintenance Management
                 </button>
@@ -95,7 +95,7 @@ const SolutionsLayout = () => {
               >
                 <button
                   className="btn btn-link w-100 text-left"
-                  style={{ color: "white" }}
+                  style={{ color: "white", fontSize: "18px" }}
                 >
                   Inventory Management
                 </button>
@@ -125,7 +125,7 @@ const SolutionsLayout = () => {
               >
                 <button
                   className="btn btn-link w-100 text-left"
-                  style={{ color: "white" }}
+                  style={{ color: "white", fontSize: "18px" }}
                 >
                   Quality Management
                 </button>
@@ -152,7 +152,7 @@ const SolutionsLayout = () => {
               >
                 <button
                   className="btn btn-link w-100 text-left"
-                  style={{ color: "white" }}
+                  style={{ color: "white", fontSize: "18px" }}
                 >
                   Engineering and Product Lifecycle
                 </button>
@@ -180,7 +180,7 @@ const SolutionsLayout = () => {
               >
                 <button
                   className="btn btn-link w-100 text-left"
-                  style={{ color: "white" }}
+                  style={{ color: "white", fontSize: "18px" }}
                 >
                   Supply Chain Management
                 </button>

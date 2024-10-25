@@ -161,7 +161,7 @@ const manufacturing = () => {
           className=""
           style={{
             fontSize: "18px",
-            paddingBottom: "30px",
+            paddingBottom: "88px !important",
             lineHeight: "180%",
             letterSpacing: ".03125rem",
             padding: "18px",
@@ -194,8 +194,11 @@ const manufacturing = () => {
               The Zylivo Advantage
             </h2>
           </div>
-          <div className="row mt-65 justify-content-evenly container">
-            <div className="col-lg-4 col-md-6 .col-sm-6">
+          <div className="row justify-content-evenly container">
+            <div
+              className="col-lg-4 col-md-6 .col-sm-6"
+              style={{ paddingTop: "28px" }}
+            >
               <div className="card-working hover-up">
                 <div className="card-number">
                   <span>1</span>
@@ -206,12 +209,15 @@ const manufacturing = () => {
                     Pellentesque at posuere tellus. Ut sed dui justo. Phasellus
                     is scelerisque turpis arcu, ut pulvinar lectus tristique
                     non. Nam laoreet, risus vel laoreet laoreet, mauris risus
-                    porta velitn platform.
+                    porta.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 mb-30 .col-sm-6">
+            <div
+              className="col-lg-4 col-md-6 .col-sm-6"
+              style={{ paddingTop: "28px" }}
+            >
               <div className="card-working hover-up">
                 <div className="card-number">
                   <span>2</span>
@@ -226,7 +232,10 @@ const manufacturing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 .col-sm-6">
+            <div
+              className="col-lg-4 col-md-6 .col-sm-6"
+              style={{ paddingTop: "28px" }}
+            >
               <div className="card-working hover-up">
                 <div className="card-number">
                   <span>3</span>
@@ -238,14 +247,17 @@ const manufacturing = () => {
                   <p className="text-md">
                     Pellentesque at posuere tellus. Ut sed dui justo. Phasellus
                     is scelerisque turpis arcu, ut pulvinar lectus tristique
-                    non. Nam laoreet, risus vel laoreet laoreet, mauris
+                    non. Nam laoreet, risus vel laoreet
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="row justify-content-evenly mt-5">
-            <div className="col-lg-4 col-md-6 .col-sm-6">
+          <div className="row justify-content-evenly container">
+            <div
+              className="col-lg-4 col-md-6 .col-sm-6"
+              style={{ paddingTop: "28px" }}
+            >
               <div className="card-working hover-up">
                 <div className="card-number">
                   <span>1</span>
@@ -256,12 +268,15 @@ const manufacturing = () => {
                     Pellentesque at posuere tellus. Ut sed dui justo. Phasellus
                     is scelerisque turpis arcu, ut pulvinar lectus tristique
                     non. Nam laoreet, risus vel laoreet laoreet, mauris risus
-                    porta velitn platform.
+                    porta .
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 mb-30 .col-sm-6">
+            <div
+              className="col-lg-4 col-md-6  .col-sm-6"
+              style={{ paddingTop: "28px" }}
+            >
               <div className="card-working hover-up">
                 <div className="card-number">
                   <span>2</span>
@@ -276,7 +291,10 @@ const manufacturing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 .col-sm-6">
+            <div
+              className="col-lg-4 col-md-6 .col-sm-6"
+              style={{ paddingTop: "28px" }}
+            >
               <div className="card-working hover-up">
                 <div className="card-number">
                   <span>3</span>
@@ -288,7 +306,7 @@ const manufacturing = () => {
                   <p className="text-md">
                     Pellentesque at posuere tellus. Ut sed dui justo. Phasellus
                     is scelerisque turpis arcu, ut pulvinar lectus tristique
-                    non. Nam laoreet, risus vel laoreet laoreet, mauris
+                    non. Nam laoreet, risus vel laoreet
                   </p>
                 </div>
               </div>
@@ -298,12 +316,15 @@ const manufacturing = () => {
       </section>
 
       <div className="services-container">
-        <div className="services-content">
+        <div className="services-content ">
           {/* <h3 className="services-heading-two">SERVICES</h3> */}
-          <h1 className="services-heading" style={{ fontSize: "32px" }}>
+          <h1
+            className="services-heading container"
+            style={{ fontSize: "32px" }}
+          >
             Our Services for Manufacturing Industry
           </h1>
-          <div className="services-grid">
+          <div className="services-grid container">
             {visibleServices.map((service, index) => (
               <ServiceCard key={index} {...service} />
             ))}
@@ -312,6 +333,12 @@ const manufacturing = () => {
       </div>
       {/* Responsive adjustments with media query */}
       <style jsx>{`
+        .services-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+          gap: 2.5rem;
+        }
+
         @media (max-width: 768px) {
           .bg-image {
             height: 300px; /* Adjust height for mobile */
