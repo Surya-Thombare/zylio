@@ -7,7 +7,12 @@ const ImageSection = () => {
         <div className="py-2">
           <div
             className=""
-            style={{ color: "white", fontSize: "32px", paddingBottom: "60px" }}
+            style={{
+              color: "white",
+              fontSize: "32px",
+              paddingBottom: "60px",
+              lineHeight: "1",
+            }}
           >
             We provide creative solutions for your creative ideas.
           </div>
