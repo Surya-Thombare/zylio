@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 import "./Services.css"; // Import the CSS file
 import AI from "../../../public/assets/imgs/oldImages/tcs/AI.png";
 import Cloud from "../../../public/assets/imgs/oldImages/tcs/cloud.jpeg";
@@ -15,8 +16,13 @@ import SoftwareDevelopment from "../../../public/assets/imgs/oldImages/tcs/Softw
 import UIUX from "../../../public/assets/imgs/oldImages/tcs/UX_UI_Desiner_zylivo_innovations.jpg";
 import WebsiteDevelopment from "../../../public/assets/imgs/oldImages/tcs/Website_Devlopment_zylivo_innovations.jpg";
 
-const ServiceCard = ({ title, imageUrl }) => {
+const ServiceCard = ({ title, imageUrl, path }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const router = useRouter(); // Initialize useRouter
+
+  const handleNavigation = (path) => {
+    router.push(path); // Navigate to the industry-specific page
+  };
 
   return (
     <div
@@ -26,6 +32,7 @@ const ServiceCard = ({ title, imageUrl }) => {
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onClick={() => handleNavigation(path)}
     >
       <img src={imageUrl} alt={title} className="service-card-img" />
       <div
@@ -51,6 +58,7 @@ const Services = () => {
     {
       title: "Ecommerce Website Development",
       imageUrl: Ecommerce.src,
+      path: "/service/ecommerce",
     },
     {
       title: "Software Development",
