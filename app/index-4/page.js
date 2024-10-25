@@ -17,6 +17,7 @@ import Office from "@/components/sections/home4/Office";
 import Review from "@/components/sections/home4/Review";
 import Services from "@/components/sections/home4/Services";
 import Industry from "@/components/sections/home4/Industry";
+import ImageSection from "@/components/sections/home4/ImageSection";
 export default function Home4() {
   return (
     <>
@@ -27,6 +28,7 @@ export default function Home4() {
         <Section3 />
         <Services />
         <Industry />
+        <ImageSection />
         <Portfolio />
         <Section5 />
         {/* <FAQ /> */}
