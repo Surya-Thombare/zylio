@@ -55,21 +55,21 @@ export default function Section3() {
             <div className={`col ${isMobile ? "col-12" : "col-lg-5 col-md-6"}`}>
               <div className="text-section text-black container ">
                 <span
-                  className="subtitle  text-black  section3_text_title monda-font"
+                  className="subtitle  text-black  section3_text_title monda-font container"
                   // style={{ fontFamily: "var(--font-monda)" }}
                 >
                   Your Digital Transformation Partner
                 </span>
-                <h3 className="title section3_text_subtitle">
+                <h3 className="title section3_text_subtitle container py-2  ">
                   We Create Software, Websites and Web Apps.
                 </h3>
-                <p className="description">
+                <p className="description container py-2">
                   We are a team of professionals committed to transforming the
                   digital landscape for businesses and individuals alike. We
                   believe in the power of innovation and technology, and their
                   potential to make life easier, more meaningful, and efficient.
                 </p>
-                <Link href="/about-us">
+                <Link href="/about-us" className="container">
                   <span className="btn-primary">Get to know us</span>
                 </Link>
               </div>
@@ -77,7 +77,7 @@ export default function Section3() {
 
             {/* Image section */}
             <div className={`col ${isMobile ? "col-12" : "col-lg-7 col-md-6"}`}>
-              <div className="about-image-area">
+              <div className="about-image-area ">
                 <div className="about-image" ref={tiltRef}>
                   {/* Main image (Team discussion) */}
                   <Image
@@ -117,8 +117,8 @@ export default function Section3() {
         }
 
         .section-wrapper {
-          padding-top: 90px;
-          padding-bottom: 200px;
+          padding-top: 70px;
+          padding-bottom: 100px;
           background-color: #fff;
         }
 

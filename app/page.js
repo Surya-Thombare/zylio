@@ -12,6 +12,8 @@ import Section6 from "@/components/sections/home1/Section6";
 import Section7 from "@/components/sections/home1/Section7";
 import Section8 from "@/components/sections/home1/Section8";
 import Section9 from "@/components/sections/home1/Section9";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 export default function Home() {
   return (
     <>

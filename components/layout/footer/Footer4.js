@@ -103,42 +103,53 @@ export default function Footer4() {
           {/* Footer bottom with logo and copyright */}
           <div className="footer-bottom mt-0">
             <div className="row align-items-center">
-              <div className="col-md-6 text-md-start text-center">
+              <div className="col-lg-2 col-md-6 text-md-start text-center">
                 <img alt="Zylivo" src="/assets/imgs/template/logo.svg" />
+              </div>
+              <div className="col-lg-3 col-md-6 text-md-start text-center">
                 <p className="text-sm neutral-600">
                   Copyright © 2023 Nivia. All rights reserved.
                 </p>
-                <a href="#">Privacy Policy</a> |<a href="#">Terms Conditions</a>
               </div>
-              <div className="col-md-6 text-md-end text-center">
+              <div className="col-lg-1 col-md-6 text-md-start text-center">
+                <a href="#">Privacy Policy</a>
+              </div>
+              <div className="col-lg-2 col-md-6 text-md-start text-center">
+                <a href="#">Terms Conditions</a>
+              </div>
+
+              <div className="col-lg-4 col-md-6 text-md-start text-center">
                 <div className="menu-bottom-footer">
-                  <div className="text-start d-inline-block mt-30">
+                  <div className="d-flex align-items-center justify-content-end text-start d-inline-block ">
                     <p className="text-lg title-follow neutral-0">Follow us</p>
-                    <div className="box-socials-footer">
-                      <a className="icon-socials icon-facebook" href="#">
-                        <img
-                          alt="Facebook"
-                          src="/assets/imgs/template/icons/fb.svg"
-                        />
-                      </a>
-                      <a className="icon-socials icon-linkedin" href="#">
-                        <img
-                          alt="LinkedIn"
-                          src="/assets/imgs/template/icons/in.svg"
-                        />
-                      </a>
-                      <a className="icon-socials icon-twitter" href="#">
-                        <img
-                          alt="Twitter"
-                          src="/assets/imgs/template/icons/tw.svg"
-                        />
-                      </a>
-                      <a className="icon-socials icon-behance" href="#">
-                        <img
-                          alt="Behance"
-                          src="/assets/imgs/template/icons/be.svg"
-                        />
-                      </a>
+
+                    <div className="box-socials-footer d-flex ">
+                      <div className=" text-md-end ">
+                        <a className="icon-socials icon-facebook" href="#">
+                          <img
+                            alt="Facebook"
+                            src="/assets/imgs/template/icons/fb.svg"
+                          />
+                        </a>
+                        <a className="icon-socials icon-linkedin" href="#">
+                          <img
+                            alt="LinkedIn"
+                            src="/assets/imgs/template/icons/in.svg"
+                          />
+                        </a>
+                        <a className="icon-socials icon-twitter" href="#">
+                          <img
+                            alt="Twitter"
+                            src="/assets/imgs/template/icons/tw.svg"
+                          />
+                        </a>
+                        <a className="icon-socials icon-behance" href="#">
+                          <img
+                            alt="Behance"
+                            src="/assets/imgs/template/icons/be.svg"
+                          />
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -161,8 +172,28 @@ export default function Footer4() {
             color: #fff;
           }
           .title-follow {
+            margin-top: 0px;
             color: #fff;
-            margin-bottom: 15px;
+            margin-bottom: 0px;
+            white-space: nowrap;
+          }
+
+          @media (max-width: 768px) {
+            .title-follow {
+              margin-top: 3px;
+              color: #fff;
+              margin-bottom: 0px;
+              white-space: nowrap;
+            }
+
+            .menu-bottom-footer {
+              margin-top: 20px;
+              padding-left: 10px;
+            }
+          }
+
+          .icon-socials {
+            margin-right: 0px !important;
           }
           .box-socials-footer a {
             margin-right: 10px;
