@@ -64,6 +64,13 @@ const SolutionsLayout = () => {
                 <button className="btn btn-link w-100 text-left">
                   Maintenance Management
                 </button>
+                <i
+                  className={`bi ${
+                    openSections["maintenanceManagement"]
+                      ? "bi-chevron-up"
+                      : "bi-chevron-down"
+                  } arrow-icon`}
+                ></i>
               </div>
               {openSections["maintenanceManagement"] && (
                 <div className="card-body">
@@ -83,6 +90,13 @@ const SolutionsLayout = () => {
                 <button className="btn btn-link w-100 text-left">
                   Inventory Management
                 </button>
+                <i
+                  className={`bi ${
+                    openSections["inventoryManagement"]
+                      ? "bi-chevron-up"
+                      : "bi-chevron-down"
+                  } arrow-icon`}
+                ></i>
               </div>
               {openSections["inventoryManagement"] && (
                 <div className="card-body">
@@ -103,6 +117,13 @@ const SolutionsLayout = () => {
                 <button className="btn btn-link w-100 text-left">
                   Quality Management
                 </button>
+                <i
+                  className={`bi ${
+                    openSections["qualityManagement"]
+                      ? "bi-chevron-up"
+                      : "bi-chevron-down"
+                  } arrow-icon`}
+                ></i>
               </div>
               {openSections["qualityManagement"] && (
                 <div className="card-body">Content for Quality Management</div>
@@ -120,6 +141,13 @@ const SolutionsLayout = () => {
                 <button className="btn btn-link w-100 text-left">
                   Engineering and Product Lifecycle
                 </button>
+                <i
+                  className={`bi ${
+                    openSections["engineeringProductLifecycle"]
+                      ? "bi-chevron-up"
+                      : "bi-chevron-down"
+                  } arrow-icon`}
+                ></i>
               </div>
               {openSections["engineeringProductLifecycle"] && (
                 <div className="card-body">
@@ -138,6 +166,13 @@ const SolutionsLayout = () => {
                 <button className="btn btn-link w-100 text-left">
                   Supply Chain Management
                 </button>
+                <i
+                  className={`bi ${
+                    openSections["supplyChainManagement"]
+                      ? "bi-chevron-up"
+                      : "bi-chevron-down"
+                  } arrow-icon`}
+                ></i>
               </div>
               {openSections["supplyChainManagement"] && (
                 <div className="card-body">

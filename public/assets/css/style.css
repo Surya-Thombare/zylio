@@ -56,8 +56,27 @@ TABLE CONTENT
   font-size: 14px !important;
 }
 
+.arrow-icon {
+  margin-left: auto;
+}
+
+.rotate-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.bi-chevron-up {
+  transform: rotate(360deg); /* Rotates the icon when the section is open */
+}
+
+.bi-chevron-down {
+  transform: rotate(0deg); /* Default position when the section is closed */
+}
+
 .card-header-custom {
   background-color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .card-custom {
