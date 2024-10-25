@@ -78,12 +78,12 @@ TABLE CONTENT
   align-items: center;
   color: white;
   justify-content: space-between;
-  
 }
 
 .card-body {
   color: white !important;
   background-color: #1a1a1a !important;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease;
 }
 
 .card-custom {
@@ -2310,9 +2310,9 @@ body {
 }
 .btn.btn-brand-4-medium {
   padding: 14px 25px;
-  background-color: #c5ff41;
+  background-color: #5057e6;
   border-radius: 8px;
-  color: #191919;
+  color: #f5f5f5;
   font-size: 18px;
   line-height: 22px;
   font-weight: 600;
@@ -2321,7 +2321,7 @@ body {
   align-items: center;
 }
 .btn.btn-brand-4-medium svg {
-  fill: #191919;
+  fill: #f5f5f5;
   margin-left: 5px;
 }
 .btn.btn-brand-4-medium:hover {

@@ -84,7 +84,7 @@ export default function Section3() {
                     src={home_image_1}
                     alt="Team meeting image"
                     layout="responsive"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                   />
                 </div>
                 {/* Secondary image (Laptop with code) */}
@@ -93,7 +93,7 @@ export default function Section3() {
                     src={home_image_2}
                     alt="Laptop with code"
                     layout="responsive"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }}
                   />
                 </div>
                 {/* Decorative overlay */}
