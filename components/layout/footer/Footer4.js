@@ -103,24 +103,24 @@ export default function Footer4() {
           {/* Footer bottom with logo and copyright */}
           <div className="footer-bottom mt-0">
             <div className="row align-items-center">
-              <div className="col-lg-2 col-md-6 text-md-start text-center">
+              <div className="col-lg-2 col-md-6 justify-content-center  text-center">
                 <img alt="Zylivo" src="/assets/imgs/template/logo.svg" />
               </div>
-              <div className="col-lg-3 col-md-6 text-md-start text-center">
-                <p className="text-sm neutral-600">
+              <div className="col-lg-3 col-md-6   text-center">
+                <p className="text-sm neutral-600 justify-content-center">
                   Copyright © 2023 Nivia. All rights reserved.
                 </p>
               </div>
-              <div className="col-lg-1 col-md-6 text-md-start text-center">
+              <div className="col-lg-1 col-md-6 justify-content-center text-center">
                 <a href="#">Privacy Policy</a>
               </div>
-              <div className="col-lg-2 col-md-6 text-md-start text-center">
+              <div className="col-lg-2 col-md-6  text-center">
                 <a href="#">Terms Conditions</a>
               </div>
 
               <div className="col-lg-4 col-md-6 text-md-start text-center">
                 <div className="menu-bottom-footer">
-                  <div className="d-flex align-items-center justify-content-end text-start d-inline-block ">
+                  <div className="d-flex align-items-center justify-content-center text-start d-inline-block ">
                     <p className="text-lg title-follow neutral-0">Follow us</p>
 
                     <div className="box-socials-footer d-flex ">
