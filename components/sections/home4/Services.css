@@ -84,8 +84,13 @@
 
 /* Mobile responsive styles */
 @media (max-width: 768px) {
+  .services-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
   .services-heading {
-    font-size: 1.75rem; /* Reduce heading size on mobile */
+    font-size: 24px !important; /* Reduce heading size on mobile */
   }
 
   .service-title {

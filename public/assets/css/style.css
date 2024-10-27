@@ -50,6 +50,85 @@ TABLE CONTENT
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .services-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .industry-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    margin-top: 10px !important;
+  }
+
+  .industry-title {
+    font-size: 28px !important;
+  }
+
+  .portfolio-heading {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    font-size: 26px !important;
+  }
+
+  .box-testimonials-4 {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .box-testimonials-4 .container p {
+    font-size: 26px !important;
+  }
+
+  .box-swiper-padding {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  .box-our-offices {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .box-latest-news-2 {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 32px !important;
+  }
+
+  .box-latest-news-2 h2 {
+    font-size: 26px !important;
+  }
+
+  .ecommerce-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .box-preparing-2 {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .manufactuing-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .box-our-working {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .box-our-working h2 {
+    font-size: 26px !important;
+  }
 }
 
 .learn_more_background {

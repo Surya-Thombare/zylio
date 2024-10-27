@@ -175,7 +175,7 @@ const ecommerce = () => {
         </div> */}
       </div>
 
-      <div className="flex justify-content-center align-items-left text-left container">
+      <div className="flex justify-content-center align-items-left text-left container ecommerce-container">
         <div
           style={{
             paddingTop: "18px",

@@ -58,7 +58,7 @@ const Services = () => {
     {
       title: "Ecommerce Website Development",
       imageUrl: Ecommerce.src,
-      path: "/service/ecommerce",
+      path: "/services/ecommerce",
     },
     {
       title: "Software Development",

@@ -136,7 +136,7 @@ const manufacturing = () => {
         </div> */}
       </div>
 
-      <div className="flex justify-content-center align-items-left text-left container">
+      <div className="flex justify-content-center align-items-left text-left container manufacturing-container">
         <div
           style={{
             paddingTop: "18px",
@@ -340,6 +340,37 @@ const manufacturing = () => {
         }
 
         @media (max-width: 768px) {
+          .services-container {
+            padding-left: 16px !important;
+            padding-right: 16px !important;
+          }
+
+          .container {
+            padding-left: 16px !important;
+            padding-right: 16px !important ;
+          }
+
+          .box-our-working {
+            padding: 16px !important;
+          }
+
+          .box-our-working .container {
+            padding: 16px !important;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .section-box .container {
+            padding-left: 16px !important;
+            padding-right: 16px !important ;
+          }
+
+          .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 2.5rem;
+          }
+
           .bg-image {
             height: 300px; /* Adjust height for mobile */
           }
