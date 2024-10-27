@@ -21,6 +21,8 @@ import Zylivo_innovations_Banner from "../../../public/assets/imgs/background/Zy
 import SolutionsLayout from "@/components/sections/home4/SolutionCard";
 import Choose_zylivoService from "@/components/sections/home4/Choose_zylivoService";
 import ServiceContactUs from "@/components/sections/home4/ServiceContactUs";
+import ServicesTestimonial from "@/components/sections/home4/ServicesTestimonial";
+import IntegrationSection from "@/components/sections/home4/IntegrationSection";
 
 const ServiceCard = ({ title, imageUrl }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -252,6 +254,8 @@ const ecommerce = () => {
           </div>
         </div>
       </div>
+      <IntegrationSection />
+      <ServicesTestimonial />
 
       <Choose_zylivoService />
 

@@ -3,7 +3,10 @@ import Link from "next/link";
 const Choose_zylivoService = () => {
   return (
     <div>
-      <section className="section-box wow animate__animated animate__fadeIn box-preparing-2">
+      <section
+        className="section-box wow animate__animated animate__fadeIn box-preparing-2"
+        style={{ paddingRight: "40px", paddingLeft: "40px" }}
+      >
         <div className="container">
           <div className="text-start">
             <h2 style={{ fontSize: "32px", fontWeight: "400" }}>

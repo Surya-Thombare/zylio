@@ -3,7 +3,7 @@ import Ecommerce from "../../../public/assets/imgs/oldImages/tcs/Ecomerce_Websit
 
 const ServiceContactUs = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "#1d1d1d" }}>
       <div className="container-fluid ">
         <div className="row">
           {/* Left section: Image */}
@@ -16,7 +16,7 @@ const ServiceContactUs = () => {
           </div>
 
           {/* Right section: Text + Button */}
-          <div className="col-md-7 p-0">
+          <div className="col-md-7 p-0 align-items-center justify-content-center">
             <div className="custom-container d-flex align-items-center">
               <div>
                 <h2

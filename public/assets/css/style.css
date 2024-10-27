@@ -141,6 +141,11 @@ TABLE CONTENT
   }
 }
 
+.IntegrationSectionHeading {
+  font-size: 32px !important;
+  font-weight: 400 !important;
+}
+
 .learn_more_background {
   /* style={{backgroundColor:"blue", borderRadius:"10px", padding:"10px", }} */
   background-color: #5057e6;
@@ -10330,7 +10335,7 @@ a.icon-socials:hover {
 }
 
 .box-connecting {
-  padding: 100px 0px 0px 0px;
+  padding: 100px 16px 100px 16px;
 }
 .box-connecting .box-connecting-inner {
   position: relative;
