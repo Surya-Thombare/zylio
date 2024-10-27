@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useState } from "react";
+import "../../../components/sections/home4/Services.css";
 import AI from "../../../public/assets/imgs/oldImages/tcs/AI.png";
 import Cloud from "../../../public/assets/imgs/oldImages/tcs/cloud.jpeg";
 import Cogniticve from "../../../public/assets/imgs/oldImages/tcs/cognitiveBusinessOps.png";
@@ -282,12 +283,6 @@ const ecommerce = () => {
           }
           .container {
             padding: 10px; /* Reduce padding for mobile */
-          }
-
-          .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-            gap: 2.5rem;
           }
         }
 
