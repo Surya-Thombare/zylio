@@ -9122,11 +9122,12 @@ a.icon-socials:hover {
 }
 
 .box-our-offices {
-  padding: 10px 0px 100px 0px;
+  padding: 10px 0px 50px 0px;
   /* background-color: #f5f5f5; */
-  /* background-image: url(../imgs/page/about/bg-offices.png); */
+  background-image: url(../imgs/background/Clip_path_group_2.png);
+  background-size: 500px;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: center left;
 }
 
 .mb-12 {
