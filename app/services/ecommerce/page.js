@@ -175,7 +175,7 @@ const ecommerce = () => {
         </div> */}
       </div>
 
-      <div className="flex justify-content-center align-items-left text-left container ecommerce-container">
+      <div className="flex justify-content-center align-items-left text-left container ecommerce">
         <div
           style={{
             paddingTop: "18px",
@@ -278,6 +278,12 @@ const ecommerce = () => {
           }
           .container {
             padding: 10px; /* Reduce padding for mobile */
+          }
+
+          .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 2.5rem;
           }
         }
 
