@@ -82,6 +82,24 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .services-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 16px; /* Add 16px padding on left and right */
+  }
+
+  .service-card {
+    width: 100%; /* Take full width of container */
+    max-width: 350px; /* Optional max width */
+    margin: 0 auto; /* Center-align the card */
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   .services-container {

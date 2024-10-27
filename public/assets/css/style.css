@@ -129,6 +129,16 @@ TABLE CONTENT
   .box-our-working h2 {
     font-size: 26px !important;
   }
+
+  .box-grow-inner .container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .about-image-overlay {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
 }
 
 .learn_more_background {

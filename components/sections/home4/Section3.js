@@ -43,14 +43,14 @@ export default function Section3() {
   }, []);
 
   return (
-    <div className="section-wrapper">
-      <div className="container">
+    <div className="section-wrapper container">
+      <div className="">
         {/* <div className="section-title">
           <h2>Who are we</h2>
           <p>Your one-stop solution for all things digital</p>
         </div> */}
         <div className="">
-          <div className="row container">
+          <div className="row ">
             {/* Text section */}
             <div className={`col ${isMobile ? "col-12" : "col-lg-5 col-md-6"}`}>
               <div className="text-section text-black container ">
@@ -77,7 +77,7 @@ export default function Section3() {
 
             {/* Image section */}
             <div className={`col ${isMobile ? "col-12" : "col-lg-7 col-md-6"}`}>
-              <div className="about-image-area ">
+              <div className="about-image-area container">
                 <div className="about-image" ref={tiltRef}>
                   {/* Main image (Team discussion) */}
                   <Image
@@ -88,7 +88,7 @@ export default function Section3() {
                   />
                 </div>
                 {/* Secondary image (Laptop with code) */}
-                <div className="about-image-overlay">
+                <div className="about-image-overlay container">
                   <Image
                     src={home_image_2}
                     alt="Laptop with code"
@@ -310,17 +310,31 @@ export default function Section3() {
             margin-top: 2rem;
           }
           .about-image-area .about-image {
-            width: 350px;
-            padding-right: 10px;
+            /* width: 350px;
+            padding-right: 10px; */
+            width: 100%;
           }
 
           .about-image-overlay {
-            width: 350px;
-            padding-left: 10px;
+            width: 90%;
+            top: 50px;
+          }
+
+          .shape {
+            top: 5%;
+            left: 70%;
+          }
+
+          .about-image-overlay .container {
+            padding: 16px !important;
+          }
+
+          .about-image-overlay {
+            display: none !important;
           }
         }
 
-        @media only screen and (max-width: 479px) {
+        /* @media only screen and (max-width: 479px) {
           .about-image-area .about-image {
             width: 250px;
             padding-right: 10px;
@@ -341,7 +355,7 @@ export default function Section3() {
             flex: 1;
             padding: 0.2rem;
           }
-        }
+        } */
       `}</style>
     </div>
   );
