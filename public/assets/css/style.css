@@ -45,6 +45,13 @@ TABLE CONTENT
   font-family: var(--font-monda) !important;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 .learn_more_background {
   /* style={{backgroundColor:"blue", borderRadius:"10px", padding:"10px", }} */
   background-color: #5057e6;
